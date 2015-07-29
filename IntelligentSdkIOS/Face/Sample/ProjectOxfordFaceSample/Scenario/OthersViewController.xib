@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OthersViewController">
+            <connections>
+                <outlet property="DescriptionLabel" destination="I8P-dg-ubL" id="pvs-kp-ELc"/>
+                <outlet property="MethodsPikcerView" destination="ctD-lY-LdZ" id="tcJ-kq-leC"/>
+                <outlet property="ResultTextView" destination="I6P-Kw-rIA" id="fG1-Jf-N2t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8P-dg-ubL">
+                    <rect key="frame" x="8" y="8" width="584" height="34"/>
+                    <string key="text">Please call "DetectFaces", "DetectOneFace" and "FindSimilar" first, because most other methods use the result of these methods. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ctD-lY-LdZ">
+                    <rect key="frame" x="8" y="49" width="486" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="160" id="T4Z-gd-jpN"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="P7h-9s-7bw"/>
+                        <outlet property="delegate" destination="-1" id="1zH-ke-1eU"/>
+                    </connections>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NRY-g3-R2n">
+                    <rect key="frame" x="502" y="115" width="90" height="30"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="CJa-1l-lCk"/>
+                        <constraint firstAttribute="width" constant="90" id="tdo-83-iiW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Go">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="GoClicked:" destination="-1" eventType="touchUpInside" id="EO6-QH-gKa"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-Kw-rIA">
+                    <rect key="frame" x="8" y="226" width="584" height="366"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="8" y="413" width="384" height="172"/>
+                    </variation>
+                    <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="8" y="460" width="784" height="125"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NRY-g3-R2n" firstAttribute="leading" secondItem="ctD-lY-LdZ" secondAttribute="trailing" constant="8" id="3aU-ua-ldq"/>
+                <constraint firstAttribute="bottom" secondItem="I6P-Kw-rIA" secondAttribute="bottom" constant="8" id="5tI-Tu-Rum"/>
+                <constraint firstItem="I6P-Kw-rIA" firstAttribute="top" secondItem="ctD-lY-LdZ" secondAttribute="bottom" constant="16" id="GaD-dt-Brc"/>
+                <constraint firstItem="ctD-lY-LdZ" firstAttribute="top" secondItem="I8P-dg-ubL" secondAttribute="bottom" constant="8" id="Gmh-Dd-PZs"/>
+                <constraint firstItem="I6P-Kw-rIA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="Rxr-kF-joc"/>
+                <constraint firstItem="I8P-dg-ubL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="TzB-of-BPk"/>
+                <constraint firstAttribute="trailing" secondItem="I6P-Kw-rIA" secondAttribute="trailing" constant="8" id="bfa-0a-FEQ"/>
+                <constraint firstItem="I8P-dg-ubL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="dTf-Hm-EPx"/>
+                <constraint firstAttribute="trailing" secondItem="NRY-g3-R2n" secondAttribute="trailing" constant="8" id="gre-Mz-1Jl"/>
+                <constraint firstItem="ctD-lY-LdZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="jZd-57-C4i"/>
+                <constraint firstAttribute="trailing" secondItem="I8P-dg-ubL" secondAttribute="trailing" constant="8" id="ty4-U2-iuB"/>
+                <constraint firstItem="NRY-g3-R2n" firstAttribute="centerY" secondItem="ctD-lY-LdZ" secondAttribute="centerY" id="zXb-yg-sGU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

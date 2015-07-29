@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FindSimilarViewController">
+            <connections>
+                <outlet property="CandidatesCollectionView" destination="fna-vx-AkO" id="mGJ-6L-7qr"/>
+                <outlet property="DescriptionLabel" destination="csj-Ik-wBi" id="tts-D2-Lv2"/>
+                <outlet property="QueryImageView" destination="TSc-PL-5Jx" id="zFu-fd-jAa"/>
+                <outlet property="SimilarCollectionView" destination="Ma7-rv-TTU" id="aAc-eD-g4z"/>
+                <outlet property="StatusTextView" destination="rTy-3V-bhf" id="0WT-FS-36E"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csj-Ik-wBi">
+                    <rect key="frame" x="8" y="8" width="584" height="34"/>
+                    <string key="text">Find faces with appearance similarity. You can pick multiple images, all detected faces inside the images will be treated as candidate. Use 'Find similar' to get the result.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhc-i8-1df">
+                    <rect key="frame" x="8" y="50" width="288" height="30"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="XEm-yT-EMn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Choose Candidate Images">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ChooseCandidates:" destination="-1" eventType="touchUpInside" id="var-PH-7Dk"/>
+                    </connections>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fna-vx-AkO">
+                    <rect key="frame" x="8" y="88" width="288" height="346"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fna-vx-AkO" secondAttribute="height" multiplier="1:1.2" id="LKU-0q-4PC"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="6" id="i7s-81-aB9">
+                        <size key="itemSize" width="70" height="70"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Q5N-EO-WuX"/>
+                        <outlet property="delegate" destination="-1" id="h3D-tt-SZs"/>
+                    </connections>
+                </collectionView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Family1-Dad1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TSc-PL-5Jx">
+                    <rect key="frame" x="376" y="88" width="144" height="144"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="TSc-PL-5Jx" secondAttribute="height" multiplier="1:1" id="m7n-lG-g4b"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTy-3V-bhf">
+                    <rect key="frame" x="8" y="480" width="584" height="112"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="8" y="413" width="384" height="172"/>
+                    </variation>
+                    <variation key="widthClass=regular" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="8" y="460" width="784" height="125"/>
+                    </variation>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar to:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTR-aP-7aZ">
+                    <rect key="frame" x="304" y="240" width="100" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="2BI-Ac-pso"/>
+                        <constraint firstAttribute="width" constant="100" id="4na-bi-fLG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ma7-rv-TTU">
+                    <rect key="frame" x="304" y="268" width="288" height="166"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="6" id="dTW-af-hYX">
+                        <size key="itemSize" width="60" height="60"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="hrk-0s-PWQ"/>
+                        <outlet property="delegate" destination="-1" id="rIK-90-baT"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YrV-cm-Jii">
+                    <rect key="frame" x="304" y="50" width="288" height="30"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Choose Image">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ChooseQueryFace:" destination="-1" eventType="touchUpInside" id="pFk-ak-JCh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uoa-RH-C7N">
+                    <rect key="frame" x="150" y="442" width="300" height="30"/>
+                    <color key="backgroundColor" name="controlHighlightColor" catalog="System" colorSpace="catalog"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5mb-Sr-UVj"/>
+                        <constraint firstAttribute="width" constant="300" id="eAr-1s-sRh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Find Similar">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="FindSimilar:" destination="-1" eventType="touchUpInside" id="T5V-pS-LBj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ma7-rv-TTU" firstAttribute="width" secondItem="YrV-cm-Jii" secondAttribute="width" id="0F9-sT-cxP"/>
+                <constraint firstItem="pTR-aP-7aZ" firstAttribute="leading" secondItem="YrV-cm-Jii" secondAttribute="leading" id="2JC-rU-Tgh"/>
+                <constraint firstItem="fna-vx-AkO" firstAttribute="top" secondItem="uhc-i8-1df" secondAttribute="bottom" constant="8" id="2UJ-ax-IJf"/>
+                <constraint firstAttribute="centerX" secondItem="Uoa-RH-C7N" secondAttribute="centerX" id="2ec-gR-ymJ"/>
+                <constraint firstAttribute="trailing" secondItem="csj-Ik-wBi" secondAttribute="trailing" constant="8" id="4jR-Zz-Zqy"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="height" secondItem="YrV-cm-Jii" secondAttribute="height" id="8Ao-6V-G8h"/>
+                <constraint firstItem="Ma7-rv-TTU" firstAttribute="bottom" secondItem="fna-vx-AkO" secondAttribute="bottom" id="GH6-iW-Iqg"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="width" secondItem="YrV-cm-Jii" secondAttribute="width" id="HMs-xk-E6b"/>
+                <constraint firstItem="Ma7-rv-TTU" firstAttribute="top" secondItem="pTR-aP-7aZ" secondAttribute="bottom" constant="8" id="KI4-Oq-uUl"/>
+                <constraint firstItem="Uoa-RH-C7N" firstAttribute="top" secondItem="fna-vx-AkO" secondAttribute="bottom" constant="8" id="ML7-do-fYt"/>
+                <constraint firstItem="csj-Ik-wBi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="MOz-SV-Cfy"/>
+                <constraint firstAttribute="trailing" secondItem="YrV-cm-Jii" secondAttribute="trailing" constant="8" id="Mbo-hD-JyK"/>
+                <constraint firstItem="YrV-cm-Jii" firstAttribute="leading" secondItem="uhc-i8-1df" secondAttribute="trailing" constant="8" id="OQ6-P4-bD1"/>
+                <constraint firstItem="TSc-PL-5Jx" firstAttribute="width" secondItem="YrV-cm-Jii" secondAttribute="width" multiplier="0.5" id="WDu-Pi-hB5"/>
+                <constraint firstAttribute="bottom" secondItem="rTy-3V-bhf" secondAttribute="bottom" constant="8" id="YMx-NV-Nnm"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="ZBa-Sz-AAG"/>
+                <constraint firstItem="Ma7-rv-TTU" firstAttribute="leading" secondItem="YrV-cm-Jii" secondAttribute="leading" id="ZaA-ge-dyO"/>
+                <constraint firstItem="rTy-3V-bhf" firstAttribute="top" secondItem="Uoa-RH-C7N" secondAttribute="bottom" constant="8" id="bB7-by-1vb"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="top" secondItem="csj-Ik-wBi" secondAttribute="bottom" constant="8" id="c6g-dO-yxq"/>
+                <constraint firstItem="pTR-aP-7aZ" firstAttribute="top" secondItem="TSc-PL-5Jx" secondAttribute="bottom" constant="8" id="cxq-qd-zEZ"/>
+                <constraint firstAttribute="trailing" secondItem="rTy-3V-bhf" secondAttribute="trailing" constant="8" id="jOL-IK-qfk"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="top" secondItem="YrV-cm-Jii" secondAttribute="top" id="mrU-hE-QsP"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="leading" secondItem="fna-vx-AkO" secondAttribute="leading" id="tsV-8v-Spn"/>
+                <constraint firstItem="TSc-PL-5Jx" firstAttribute="centerX" secondItem="YrV-cm-Jii" secondAttribute="centerX" id="wPT-J4-vgD"/>
+                <constraint firstItem="csj-Ik-wBi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="8" id="xim-E0-Ex9"/>
+                <constraint firstItem="TSc-PL-5Jx" firstAttribute="top" secondItem="YrV-cm-Jii" secondAttribute="bottom" constant="8" id="yy2-ll-opy"/>
+                <constraint firstItem="uhc-i8-1df" firstAttribute="width" secondItem="fna-vx-AkO" secondAttribute="width" id="zO7-4H-SmW"/>
+                <constraint firstItem="rTy-3V-bhf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="zw0-Or-Xj6"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Family1-Dad1.jpg" width="203" height="241"/>
+    </resources>
+</document>
