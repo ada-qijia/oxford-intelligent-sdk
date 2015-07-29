@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33957B61B453F9A00F7FBE6 /* ProjectOxfordFaceLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33957B51B453F9A00F7FBE6 /* ProjectOxfordFaceLib.h */; };
+		C33957BE1B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33957B21B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a */; };
+		C33958611B45491F00F7FBE6 /* MOFCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958521B45491F00F7FBE6 /* MOFCandidate.m */; };
+		C33958621B45491F00F7FBE6 /* MOFCreatePersonResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958541B45491F00F7FBE6 /* MOFCreatePersonResult.m */; };
+		C33958631B45491F00F7FBE6 /* MOFFace.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958561B45491F00F7FBE6 /* MOFFace.m */; };
+		C33958641B45491F00F7FBE6 /* MOFFaceAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958581B45491F00F7FBE6 /* MOFFaceAttribute.m */; };
+		C33958651B45491F00F7FBE6 /* MOFFaceLandmarks.m in Sources */ = {isa = PBXBuildFile; fileRef = C339585A1B45491F00F7FBE6 /* MOFFaceLandmarks.m */; };
+		C33958661B45491F00F7FBE6 /* MOFFaceRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C339585C1B45491F00F7FBE6 /* MOFFaceRectangle.m */; };
+		C33958671B45491F00F7FBE6 /* MOFFeatureCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = C339585E1B45491F00F7FBE6 /* MOFFeatureCoordinate.m */; };
+		C33958681B45491F00F7FBE6 /* MOFGroupResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958601B45491F00F7FBE6 /* MOFGroupResult.m */; };
+		C339586B1B45498C00F7FBE6 /* MOFHeadPose.m in Sources */ = {isa = PBXBuildFile; fileRef = C339586A1B45498C00F7FBE6 /* MOFHeadPose.m */; };
+		C339586E1B4549EC00F7FBE6 /* MOFIdentifyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C339586D1B4549EC00F7FBE6 /* MOFIdentifyResult.m */; };
+		C33958711B454A2C00F7FBE6 /* MOFPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958701B454A2C00F7FBE6 /* MOFPerson.m */; };
+		C33958741B454A9C00F7FBE6 /* MOFPersonFace.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958731B454A9C00F7FBE6 /* MOFPersonFace.m */; };
+		C33958771B454AF600F7FBE6 /* MOFPersonGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958761B454AF600F7FBE6 /* MOFPersonGroup.m */; };
+		C339587A1B454B4600F7FBE6 /* MOFSimilarFace.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958791B454B4600F7FBE6 /* MOFSimilarFace.m */; };
+		C339587D1B454B7B00F7FBE6 /* MOFTrainingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C339587C1B454B7B00F7FBE6 /* MOFTrainingStatus.m */; };
+		C33958801B454BE400F7FBE6 /* MOFVerifyResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C339587F1B454BE400F7FBE6 /* MOFVerifyResult.m */; };
+		C33958A01B454C2800F7FBE6 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958841B454C2800F7FBE6 /* JSONModel.m */; };
+		C33958A11B454C2800F7FBE6 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958861B454C2800F7FBE6 /* JSONModelArray.m */; };
+		C33958A21B454C2800F7FBE6 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958881B454C2800F7FBE6 /* JSONModelClassProperty.m */; };
+		C33958A31B454C2800F7FBE6 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = C339588A1B454C2800F7FBE6 /* JSONModelError.m */; };
+		C33958A41B454C2800F7FBE6 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C339588D1B454C2800F7FBE6 /* NSArray+JSONModel.m */; };
+		C33958A51B454C2800F7FBE6 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958911B454C2800F7FBE6 /* JSONAPI.m */; };
+		C33958A61B454C2800F7FBE6 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958931B454C2800F7FBE6 /* JSONHTTPClient.m */; };
+		C33958A71B454C2800F7FBE6 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958951B454C2800F7FBE6 /* JSONModel+networking.m */; };
+		C33958A81B454C2800F7FBE6 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958981B454C2800F7FBE6 /* JSONKeyMapper.m */; };
+		C33958A91B454C2800F7FBE6 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C339589A1B454C2800F7FBE6 /* JSONValueTransformer.m */; };
+		C33958AA1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C339589D1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.m */; };
+		C33958AB1B454C2800F7FBE6 /* OptionalPropJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C339589F1B454C2800F7FBE6 /* OptionalPropJSONModel.m */; };
+		C33958AE1B454FC500F7FBE6 /* ClientError.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958AD1B454FC500F7FBE6 /* ClientError.m */; };
+		C33958B71B4659C800F7FBE6 /* MOFFaceServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958B61B4659C800F7FBE6 /* MOFFaceServiceClient.m */; };
+		C33958FA1B4A54D400F7FBE6 /* MOFCandidate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958511B45491F00F7FBE6 /* MOFCandidate.h */; };
+		C33958FB1B4A550D00F7FBE6 /* JSONModelLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339588E1B454C2800F7FBE6 /* JSONModelLib.h */; };
+		C33958FD1B4A552B00F7FBE6 /* JSONModelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958851B454C2800F7FBE6 /* JSONModelArray.h */; };
+		C33958FE1B4A552B00F7FBE6 /* JSONModelClassProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958871B454C2800F7FBE6 /* JSONModelClassProperty.h */; };
+		C33958FF1B4A552B00F7FBE6 /* JSONModelError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958891B454C2800F7FBE6 /* JSONModelError.h */; };
+		C33959001B4A552B00F7FBE6 /* NSArray+JSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339588C1B454C2800F7FBE6 /* NSArray+JSONModel.h */; };
+		C33959011B4A552B00F7FBE6 /* JSONAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958901B454C2800F7FBE6 /* JSONAPI.h */; };
+		C33959021B4A552B00F7FBE6 /* JSONHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958921B454C2800F7FBE6 /* JSONHTTPClient.h */; };
+		C33959031B4A552B00F7FBE6 /* JSONModel+networking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958941B454C2800F7FBE6 /* JSONModel+networking.h */; };
+		C33959041B4A553D00F7FBE6 /* JSONKeyMapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958971B454C2800F7FBE6 /* JSONKeyMapper.h */; };
+		C33959051B4A553D00F7FBE6 /* JSONValueTransformer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958991B454C2800F7FBE6 /* JSONValueTransformer.h */; };
+		C33959081B4A554F00F7FBE6 /* MOFCreatePersonResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958531B45491F00F7FBE6 /* MOFCreatePersonResult.h */; };
+		C33959091B4A554F00F7FBE6 /* MOFFace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958551B45491F00F7FBE6 /* MOFFace.h */; };
+		C339590A1B4A554F00F7FBE6 /* MOFFaceAttribute.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958571B45491F00F7FBE6 /* MOFFaceAttribute.h */; };
+		C339590B1B4A554F00F7FBE6 /* MOFFaceLandmarks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958591B45491F00F7FBE6 /* MOFFaceLandmarks.h */; };
+		C339590C1B4A554F00F7FBE6 /* MOFFaceRectangle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339585B1B45491F00F7FBE6 /* MOFFaceRectangle.h */; };
+		C339590D1B4A554F00F7FBE6 /* MOFFeatureCoordinate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339585D1B45491F00F7FBE6 /* MOFFeatureCoordinate.h */; };
+		C339590E1B4A554F00F7FBE6 /* MOFGroupResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339585F1B45491F00F7FBE6 /* MOFGroupResult.h */; };
+		C339590F1B4A554F00F7FBE6 /* MOFHeadPose.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958691B45498C00F7FBE6 /* MOFHeadPose.h */; };
+		C33959101B4A554F00F7FBE6 /* MOFIdentifyResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339586C1B4549EC00F7FBE6 /* MOFIdentifyResult.h */; };
+		C33959111B4A554F00F7FBE6 /* MOFPerson.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339586F1B454A2C00F7FBE6 /* MOFPerson.h */; };
+		C33959121B4A554F00F7FBE6 /* MOFPersonFace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958721B454A9C00F7FBE6 /* MOFPersonFace.h */; };
+		C33959131B4A554F00F7FBE6 /* MOFPersonGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958751B454AF600F7FBE6 /* MOFPersonGroup.h */; };
+		C33959141B4A555F00F7FBE6 /* MOFSimilarFace.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958781B454B4600F7FBE6 /* MOFSimilarFace.h */; };
+		C33959151B4A555F00F7FBE6 /* MOFTrainingStatus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339587B1B454B7B00F7FBE6 /* MOFTrainingStatus.h */; };
+		C33959161B4A555F00F7FBE6 /* MOFVerifyResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339587E1B454BE400F7FBE6 /* MOFVerifyResult.h */; };
+		C33959171B4A555F00F7FBE6 /* MOFFaceServiceClientProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958B21B46547000F7FBE6 /* MOFFaceServiceClientProtocol.h */; };
+		C33959181B4A555F00F7FBE6 /* MOFFaceServiceClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958B51B4659C800F7FBE6 /* MOFFaceServiceClient.h */; };
+		C33959191B4A556B00F7FBE6 /* ClientError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958AC1B454FC500F7FBE6 /* ClientError.h */; };
+		C339591A1B4A57B600F7FBE6 /* JSONKeyMapper+CamelCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339589C1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.h */; };
+		C339591B1B4A57B600F7FBE6 /* OptionalPropJSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C339589E1B454C2800F7FBE6 /* OptionalPropJSONModel.h */; };
+		C33959251B4A986100F7FBE6 /* JSONValueTransformer+NSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33959241B4A986100F7FBE6 /* JSONValueTransformer+NSDate.m */; };
+		C33959281B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C33959271B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.m */; };
+		C339592A1B4E17E700F7FBE6 /* ProjectOxfordFaceLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33959291B4E17E700F7FBE6 /* ProjectOxfordFaceLibTests.m */; };
+		C339592D1B4E40D000F7FBE6 /* detection3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C339592C1B4E40D000F7FBE6 /* detection3.jpg */; };
+		C33959561B53816500F7FBE6 /* MOFFaceGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C33959551B53816500F7FBE6 /* MOFFaceGroup.m */; };
+		C33959581B5385CC00F7FBE6 /* MOFFaceGroup.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33959541B53816500F7FBE6 /* MOFFaceGroup.h */; };
+		C339595A1B54CC2900F7FBE6 /* JSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C33958831B454C2800F7FBE6 /* JSONModel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33957BF1B453F9A00F7FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33957AA1B453F9A00F7FBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33957B11B453F9A00F7FBE6;
+			remoteInfo = ProjectOxfordFaceLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C33957B01B453F9A00F7FBE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C339595A1B54CC2900F7FBE6 /* JSONModel.h in CopyFiles */,
+				C33959581B5385CC00F7FBE6 /* MOFFaceGroup.h in CopyFiles */,
+				C339591A1B4A57B600F7FBE6 /* JSONKeyMapper+CamelCase.h in CopyFiles */,
+				C339591B1B4A57B600F7FBE6 /* OptionalPropJSONModel.h in CopyFiles */,
+				C33959191B4A556B00F7FBE6 /* ClientError.h in CopyFiles */,
+				C33959141B4A555F00F7FBE6 /* MOFSimilarFace.h in CopyFiles */,
+				C33959151B4A555F00F7FBE6 /* MOFTrainingStatus.h in CopyFiles */,
+				C33959161B4A555F00F7FBE6 /* MOFVerifyResult.h in CopyFiles */,
+				C33959171B4A555F00F7FBE6 /* MOFFaceServiceClientProtocol.h in CopyFiles */,
+				C33959181B4A555F00F7FBE6 /* MOFFaceServiceClient.h in CopyFiles */,
+				C33959081B4A554F00F7FBE6 /* MOFCreatePersonResult.h in CopyFiles */,
+				C33959091B4A554F00F7FBE6 /* MOFFace.h in CopyFiles */,
+				C339590A1B4A554F00F7FBE6 /* MOFFaceAttribute.h in CopyFiles */,
+				C339590B1B4A554F00F7FBE6 /* MOFFaceLandmarks.h in CopyFiles */,
+				C339590C1B4A554F00F7FBE6 /* MOFFaceRectangle.h in CopyFiles */,
+				C339590D1B4A554F00F7FBE6 /* MOFFeatureCoordinate.h in CopyFiles */,
+				C339590E1B4A554F00F7FBE6 /* MOFGroupResult.h in CopyFiles */,
+				C339590F1B4A554F00F7FBE6 /* MOFHeadPose.h in CopyFiles */,
+				C33959101B4A554F00F7FBE6 /* MOFIdentifyResult.h in CopyFiles */,
+				C33959111B4A554F00F7FBE6 /* MOFPerson.h in CopyFiles */,
+				C33959121B4A554F00F7FBE6 /* MOFPersonFace.h in CopyFiles */,
+				C33959131B4A554F00F7FBE6 /* MOFPersonGroup.h in CopyFiles */,
+				C33959041B4A553D00F7FBE6 /* JSONKeyMapper.h in CopyFiles */,
+				C33959051B4A553D00F7FBE6 /* JSONValueTransformer.h in CopyFiles */,
+				C33958FD1B4A552B00F7FBE6 /* JSONModelArray.h in CopyFiles */,
+				C33958FE1B4A552B00F7FBE6 /* JSONModelClassProperty.h in CopyFiles */,
+				C33958FF1B4A552B00F7FBE6 /* JSONModelError.h in CopyFiles */,
+				C33959001B4A552B00F7FBE6 /* NSArray+JSONModel.h in CopyFiles */,
+				C33959011B4A552B00F7FBE6 /* JSONAPI.h in CopyFiles */,
+				C33959021B4A552B00F7FBE6 /* JSONHTTPClient.h in CopyFiles */,
+				C33959031B4A552B00F7FBE6 /* JSONModel+networking.h in CopyFiles */,
+				C33958FB1B4A550D00F7FBE6 /* JSONModelLib.h in CopyFiles */,
+				C33958FA1B4A54D400F7FBE6 /* MOFCandidate.h in CopyFiles */,
+				C33957B61B453F9A00F7FBE6 /* ProjectOxfordFaceLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C33957B21B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProjectOxfordFaceLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33957B51B453F9A00F7FBE6 /* ProjectOxfordFaceLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectOxfordFaceLib.h; sourceTree = "<group>"; };
+		C33957BD1B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOxfordFaceLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33957C31B453F9A00F7FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33958511B45491F00F7FBE6 /* MOFCandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFCandidate.h; sourceTree = "<group>"; };
+		C33958521B45491F00F7FBE6 /* MOFCandidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFCandidate.m; sourceTree = "<group>"; };
+		C33958531B45491F00F7FBE6 /* MOFCreatePersonResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFCreatePersonResult.h; sourceTree = "<group>"; };
+		C33958541B45491F00F7FBE6 /* MOFCreatePersonResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFCreatePersonResult.m; sourceTree = "<group>"; };
+		C33958551B45491F00F7FBE6 /* MOFFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFace.h; sourceTree = "<group>"; };
+		C33958561B45491F00F7FBE6 /* MOFFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFace.m; sourceTree = "<group>"; };
+		C33958571B45491F00F7FBE6 /* MOFFaceAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceAttribute.h; sourceTree = "<group>"; };
+		C33958581B45491F00F7FBE6 /* MOFFaceAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFaceAttribute.m; sourceTree = "<group>"; };
+		C33958591B45491F00F7FBE6 /* MOFFaceLandmarks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceLandmarks.h; sourceTree = "<group>"; };
+		C339585A1B45491F00F7FBE6 /* MOFFaceLandmarks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFaceLandmarks.m; sourceTree = "<group>"; };
+		C339585B1B45491F00F7FBE6 /* MOFFaceRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceRectangle.h; sourceTree = "<group>"; };
+		C339585C1B45491F00F7FBE6 /* MOFFaceRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFaceRectangle.m; sourceTree = "<group>"; };
+		C339585D1B45491F00F7FBE6 /* MOFFeatureCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFeatureCoordinate.h; sourceTree = "<group>"; };
+		C339585E1B45491F00F7FBE6 /* MOFFeatureCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFeatureCoordinate.m; sourceTree = "<group>"; };
+		C339585F1B45491F00F7FBE6 /* MOFGroupResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFGroupResult.h; sourceTree = "<group>"; };
+		C33958601B45491F00F7FBE6 /* MOFGroupResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFGroupResult.m; sourceTree = "<group>"; };
+		C33958691B45498C00F7FBE6 /* MOFHeadPose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFHeadPose.h; sourceTree = "<group>"; };
+		C339586A1B45498C00F7FBE6 /* MOFHeadPose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFHeadPose.m; sourceTree = "<group>"; };
+		C339586C1B4549EC00F7FBE6 /* MOFIdentifyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFIdentifyResult.h; sourceTree = "<group>"; };
+		C339586D1B4549EC00F7FBE6 /* MOFIdentifyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFIdentifyResult.m; sourceTree = "<group>"; };
+		C339586F1B454A2C00F7FBE6 /* MOFPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFPerson.h; sourceTree = "<group>"; };
+		C33958701B454A2C00F7FBE6 /* MOFPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFPerson.m; sourceTree = "<group>"; };
+		C33958721B454A9C00F7FBE6 /* MOFPersonFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFPersonFace.h; sourceTree = "<group>"; };
+		C33958731B454A9C00F7FBE6 /* MOFPersonFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFPersonFace.m; sourceTree = "<group>"; };
+		C33958751B454AF600F7FBE6 /* MOFPersonGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFPersonGroup.h; sourceTree = "<group>"; };
+		C33958761B454AF600F7FBE6 /* MOFPersonGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFPersonGroup.m; sourceTree = "<group>"; };
+		C33958781B454B4600F7FBE6 /* MOFSimilarFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFSimilarFace.h; sourceTree = "<group>"; };
+		C33958791B454B4600F7FBE6 /* MOFSimilarFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFSimilarFace.m; sourceTree = "<group>"; };
+		C339587B1B454B7B00F7FBE6 /* MOFTrainingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFTrainingStatus.h; sourceTree = "<group>"; };
+		C339587C1B454B7B00F7FBE6 /* MOFTrainingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFTrainingStatus.m; sourceTree = "<group>"; };
+		C339587E1B454BE400F7FBE6 /* MOFVerifyResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFVerifyResult.h; sourceTree = "<group>"; };
+		C339587F1B454BE400F7FBE6 /* MOFVerifyResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFVerifyResult.m; sourceTree = "<group>"; };
+		C33958831B454C2800F7FBE6 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		C33958841B454C2800F7FBE6 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		C33958851B454C2800F7FBE6 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		C33958861B454C2800F7FBE6 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		C33958871B454C2800F7FBE6 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		C33958881B454C2800F7FBE6 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		C33958891B454C2800F7FBE6 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		C339588A1B454C2800F7FBE6 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		C339588C1B454C2800F7FBE6 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		C339588D1B454C2800F7FBE6 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		C339588E1B454C2800F7FBE6 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		C33958901B454C2800F7FBE6 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		C33958911B454C2800F7FBE6 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		C33958921B454C2800F7FBE6 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		C33958931B454C2800F7FBE6 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		C33958941B454C2800F7FBE6 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		C33958951B454C2800F7FBE6 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		C33958971B454C2800F7FBE6 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		C33958981B454C2800F7FBE6 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		C33958991B454C2800F7FBE6 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		C339589A1B454C2800F7FBE6 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		C339589C1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONKeyMapper+CamelCase.h"; sourceTree = "<group>"; };
+		C339589D1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONKeyMapper+CamelCase.m"; sourceTree = "<group>"; };
+		C339589E1B454C2800F7FBE6 /* OptionalPropJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionalPropJSONModel.h; sourceTree = "<group>"; };
+		C339589F1B454C2800F7FBE6 /* OptionalPropJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionalPropJSONModel.m; sourceTree = "<group>"; };
+		C33958AC1B454FC500F7FBE6 /* ClientError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientError.h; sourceTree = "<group>"; };
+		C33958AD1B454FC500F7FBE6 /* ClientError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientError.m; sourceTree = "<group>"; };
+		C33958B21B46547000F7FBE6 /* MOFFaceServiceClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceServiceClientProtocol.h; sourceTree = "<group>"; };
+		C33958B51B4659C800F7FBE6 /* MOFFaceServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceServiceClient.h; sourceTree = "<group>"; };
+		C33958B61B4659C800F7FBE6 /* MOFFaceServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFaceServiceClient.m; sourceTree = "<group>"; };
+		C33959231B4A986100F7FBE6 /* JSONValueTransformer+NSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+NSDate.h"; sourceTree = "<group>"; };
+		C33959241B4A986100F7FBE6 /* JSONValueTransformer+NSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+NSDate.m"; sourceTree = "<group>"; };
+		C33959261B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONValueTransformer+NSUUID.h"; sourceTree = "<group>"; };
+		C33959271B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONValueTransformer+NSUUID.m"; sourceTree = "<group>"; };
+		C33959291B4E17E700F7FBE6 /* ProjectOxfordFaceLibTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectOxfordFaceLibTests.m; sourceTree = "<group>"; };
+		C339592C1B4E40D000F7FBE6 /* detection3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = detection3.jpg; sourceTree = "<group>"; };
+		C33959541B53816500F7FBE6 /* MOFFaceGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFFaceGroup.h; sourceTree = "<group>"; };
+		C33959551B53816500F7FBE6 /* MOFFaceGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFFaceGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33957AF1B453F9A00F7FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33957BA1B453F9A00F7FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33957BE1B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33957A91B453F9A00F7FBE6 = {
+			isa = PBXGroup;
+			children = (
+				C33957B41B453F9A00F7FBE6 /* ProjectOxfordFaceLib */,
+				C33957C11B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests */,
+				C33957B31B453F9A00F7FBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33957B31B453F9A00F7FBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33957B21B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a */,
+				C33957BD1B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33957B41B453F9A00F7FBE6 /* ProjectOxfordFaceLib */ = {
+			isa = PBXGroup;
+			children = (
+				C33958AC1B454FC500F7FBE6 /* ClientError.h */,
+				C33958AD1B454FC500F7FBE6 /* ClientError.m */,
+				C33958811B454C2800F7FBE6 /* JSONModel */,
+				C339589B1B454C2800F7FBE6 /* JSONModelOxford */,
+				C33957E51B45491E00F7FBE6 /* Contract */,
+				C33957B51B453F9A00F7FBE6 /* ProjectOxfordFaceLib.h */,
+				C33958B21B46547000F7FBE6 /* MOFFaceServiceClientProtocol.h */,
+				C33958B51B4659C800F7FBE6 /* MOFFaceServiceClient.h */,
+				C33958B61B4659C800F7FBE6 /* MOFFaceServiceClient.m */,
+			);
+			path = ProjectOxfordFaceLib;
+			sourceTree = "<group>";
+		};
+		C33957C11B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33959291B4E17E700F7FBE6 /* ProjectOxfordFaceLibTests.m */,
+				C339592B1B4E40D000F7FBE6 /* Images */,
+				C33957C21B453F9A00F7FBE6 /* Supporting Files */,
+			);
+			path = ProjectOxfordFaceLibTests;
+			sourceTree = "<group>";
+		};
+		C33957C21B453F9A00F7FBE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33957C31B453F9A00F7FBE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33957E51B45491E00F7FBE6 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				C33958511B45491F00F7FBE6 /* MOFCandidate.h */,
+				C33958521B45491F00F7FBE6 /* MOFCandidate.m */,
+				C33958531B45491F00F7FBE6 /* MOFCreatePersonResult.h */,
+				C33958541B45491F00F7FBE6 /* MOFCreatePersonResult.m */,
+				C33958551B45491F00F7FBE6 /* MOFFace.h */,
+				C33958561B45491F00F7FBE6 /* MOFFace.m */,
+				C33958571B45491F00F7FBE6 /* MOFFaceAttribute.h */,
+				C33958581B45491F00F7FBE6 /* MOFFaceAttribute.m */,
+				C33958591B45491F00F7FBE6 /* MOFFaceLandmarks.h */,
+				C339585A1B45491F00F7FBE6 /* MOFFaceLandmarks.m */,
+				C339585B1B45491F00F7FBE6 /* MOFFaceRectangle.h */,
+				C339585C1B45491F00F7FBE6 /* MOFFaceRectangle.m */,
+				C339585D1B45491F00F7FBE6 /* MOFFeatureCoordinate.h */,
+				C339585E1B45491F00F7FBE6 /* MOFFeatureCoordinate.m */,
+				C339585F1B45491F00F7FBE6 /* MOFGroupResult.h */,
+				C33958601B45491F00F7FBE6 /* MOFGroupResult.m */,
+				C33958691B45498C00F7FBE6 /* MOFHeadPose.h */,
+				C339586A1B45498C00F7FBE6 /* MOFHeadPose.m */,
+				C339586C1B4549EC00F7FBE6 /* MOFIdentifyResult.h */,
+				C339586D1B4549EC00F7FBE6 /* MOFIdentifyResult.m */,
+				C339586F1B454A2C00F7FBE6 /* MOFPerson.h */,
+				C33958701B454A2C00F7FBE6 /* MOFPerson.m */,
+				C33958721B454A9C00F7FBE6 /* MOFPersonFace.h */,
+				C33958731B454A9C00F7FBE6 /* MOFPersonFace.m */,
+				C33958751B454AF600F7FBE6 /* MOFPersonGroup.h */,
+				C33958761B454AF600F7FBE6 /* MOFPersonGroup.m */,
+				C33958781B454B4600F7FBE6 /* MOFSimilarFace.h */,
+				C33958791B454B4600F7FBE6 /* MOFSimilarFace.m */,
+				C339587B1B454B7B00F7FBE6 /* MOFTrainingStatus.h */,
+				C339587C1B454B7B00F7FBE6 /* MOFTrainingStatus.m */,
+				C339587E1B454BE400F7FBE6 /* MOFVerifyResult.h */,
+				C339587F1B454BE400F7FBE6 /* MOFVerifyResult.m */,
+				C33959541B53816500F7FBE6 /* MOFFaceGroup.h */,
+				C33959551B53816500F7FBE6 /* MOFFaceGroup.m */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		C33958811B454C2800F7FBE6 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				C33958821B454C2800F7FBE6 /* JSONModel */,
+				C339588B1B454C2800F7FBE6 /* JSONModelCategories */,
+				C339588E1B454C2800F7FBE6 /* JSONModelLib.h */,
+				C339588F1B454C2800F7FBE6 /* JSONModelNetworking */,
+				C33958961B454C2800F7FBE6 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		C33958821B454C2800F7FBE6 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				C33958831B454C2800F7FBE6 /* JSONModel.h */,
+				C33958841B454C2800F7FBE6 /* JSONModel.m */,
+				C33958851B454C2800F7FBE6 /* JSONModelArray.h */,
+				C33958861B454C2800F7FBE6 /* JSONModelArray.m */,
+				C33958871B454C2800F7FBE6 /* JSONModelClassProperty.h */,
+				C33958881B454C2800F7FBE6 /* JSONModelClassProperty.m */,
+				C33958891B454C2800F7FBE6 /* JSONModelError.h */,
+				C339588A1B454C2800F7FBE6 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		C339588B1B454C2800F7FBE6 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				C339588C1B454C2800F7FBE6 /* NSArray+JSONModel.h */,
+				C339588D1B454C2800F7FBE6 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		C339588F1B454C2800F7FBE6 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C33958901B454C2800F7FBE6 /* JSONAPI.h */,
+				C33958911B454C2800F7FBE6 /* JSONAPI.m */,
+				C33958921B454C2800F7FBE6 /* JSONHTTPClient.h */,
+				C33958931B454C2800F7FBE6 /* JSONHTTPClient.m */,
+				C33958941B454C2800F7FBE6 /* JSONModel+networking.h */,
+				C33958951B454C2800F7FBE6 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		C33958961B454C2800F7FBE6 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				C33958971B454C2800F7FBE6 /* JSONKeyMapper.h */,
+				C33958981B454C2800F7FBE6 /* JSONKeyMapper.m */,
+				C33958991B454C2800F7FBE6 /* JSONValueTransformer.h */,
+				C339589A1B454C2800F7FBE6 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		C339589B1B454C2800F7FBE6 /* JSONModelOxford */ = {
+			isa = PBXGroup;
+			children = (
+				C339589C1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.h */,
+				C339589D1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.m */,
+				C339589E1B454C2800F7FBE6 /* OptionalPropJSONModel.h */,
+				C339589F1B454C2800F7FBE6 /* OptionalPropJSONModel.m */,
+				C33959231B4A986100F7FBE6 /* JSONValueTransformer+NSDate.h */,
+				C33959241B4A986100F7FBE6 /* JSONValueTransformer+NSDate.m */,
+				C33959261B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.h */,
+				C33959271B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.m */,
+			);
+			path = JSONModelOxford;
+			sourceTree = "<group>";
+		};
+		C339592B1B4E40D000F7FBE6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C339592C1B4E40D000F7FBE6 /* detection3.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33957B11B453F9A00F7FBE6 /* ProjectOxfordFaceLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33957C61B453F9A00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceLib" */;
+			buildPhases = (
+				C33957AE1B453F9A00F7FBE6 /* Sources */,
+				C33957AF1B453F9A00F7FBE6 /* Frameworks */,
+				C33957B01B453F9A00F7FBE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectOxfordFaceLib;
+			productName = ProjectOxfordFaceLib;
+			productReference = C33957B21B453F9A00F7FBE6 /* libProjectOxfordFaceLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C33957BC1B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33957C91B453F9A00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceLibTests" */;
+			buildPhases = (
+				C33957B91B453F9A00F7FBE6 /* Sources */,
+				C33957BA1B453F9A00F7FBE6 /* Frameworks */,
+				C33957BB1B453F9A00F7FBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33957C01B453F9A00F7FBE6 /* PBXTargetDependency */,
+			);
+			name = ProjectOxfordFaceLibTests;
+			productName = ProjectOxfordFaceLibTests;
+			productReference = C33957BD1B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33957AA1B453F9A00F7FBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					C33957B11B453F9A00F7FBE6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C33957BC1B453F9A00F7FBE6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = C33957AD1B453F9A00F7FBE6 /* Build configuration list for PBXProject "ProjectOxfordFaceLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33957A91B453F9A00F7FBE6;
+			productRefGroup = C33957B31B453F9A00F7FBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33957B11B453F9A00F7FBE6 /* ProjectOxfordFaceLib */,
+				C33957BC1B453F9A00F7FBE6 /* ProjectOxfordFaceLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33957BB1B453F9A00F7FBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339592D1B4E40D000F7FBE6 /* detection3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33957AE1B453F9A00F7FBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339587D1B454B7B00F7FBE6 /* MOFTrainingStatus.m in Sources */,
+				C33958A11B454C2800F7FBE6 /* JSONModelArray.m in Sources */,
+				C33959251B4A986100F7FBE6 /* JSONValueTransformer+NSDate.m in Sources */,
+				C339587A1B454B4600F7FBE6 /* MOFSimilarFace.m in Sources */,
+				C33958621B45491F00F7FBE6 /* MOFCreatePersonResult.m in Sources */,
+				C33959281B4CD49900F7FBE6 /* JSONValueTransformer+NSUUID.m in Sources */,
+				C33958661B45491F00F7FBE6 /* MOFFaceRectangle.m in Sources */,
+				C33958AE1B454FC500F7FBE6 /* ClientError.m in Sources */,
+				C33958801B454BE400F7FBE6 /* MOFVerifyResult.m in Sources */,
+				C33958631B45491F00F7FBE6 /* MOFFace.m in Sources */,
+				C33958A71B454C2800F7FBE6 /* JSONModel+networking.m in Sources */,
+				C33958AB1B454C2800F7FBE6 /* OptionalPropJSONModel.m in Sources */,
+				C33959561B53816500F7FBE6 /* MOFFaceGroup.m in Sources */,
+				C33958681B45491F00F7FBE6 /* MOFGroupResult.m in Sources */,
+				C33958AA1B454C2800F7FBE6 /* JSONKeyMapper+CamelCase.m in Sources */,
+				C33958611B45491F00F7FBE6 /* MOFCandidate.m in Sources */,
+				C339586B1B45498C00F7FBE6 /* MOFHeadPose.m in Sources */,
+				C33958A91B454C2800F7FBE6 /* JSONValueTransformer.m in Sources */,
+				C33958641B45491F00F7FBE6 /* MOFFaceAttribute.m in Sources */,
+				C33958A51B454C2800F7FBE6 /* JSONAPI.m in Sources */,
+				C33958B71B4659C800F7FBE6 /* MOFFaceServiceClient.m in Sources */,
+				C33958A61B454C2800F7FBE6 /* JSONHTTPClient.m in Sources */,
+				C33958651B45491F00F7FBE6 /* MOFFaceLandmarks.m in Sources */,
+				C33958671B45491F00F7FBE6 /* MOFFeatureCoordinate.m in Sources */,
+				C339586E1B4549EC00F7FBE6 /* MOFIdentifyResult.m in Sources */,
+				C33958A81B454C2800F7FBE6 /* JSONKeyMapper.m in Sources */,
+				C33958A31B454C2800F7FBE6 /* JSONModelError.m in Sources */,
+				C33958771B454AF600F7FBE6 /* MOFPersonGroup.m in Sources */,
+				C33958A01B454C2800F7FBE6 /* JSONModel.m in Sources */,
+				C33958A41B454C2800F7FBE6 /* NSArray+JSONModel.m in Sources */,
+				C33958A21B454C2800F7FBE6 /* JSONModelClassProperty.m in Sources */,
+				C33958711B454A2C00F7FBE6 /* MOFPerson.m in Sources */,
+				C33958741B454A9C00F7FBE6 /* MOFPersonFace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33957B91B453F9A00F7FBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C339592A1B4E17E700F7FBE6 /* ProjectOxfordFaceLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33957C01B453F9A00F7FBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33957B11B453F9A00F7FBE6 /* ProjectOxfordFaceLib */;
+			targetProxy = C33957BF1B453F9A00F7FBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C33957C41B453F9A00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C33957C51B453F9A00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33957C71B453F9A00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C33957C81B453F9A00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C33957CA1B453F9A00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordFaceLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C33957CB1B453F9A00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordFaceLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33957AD1B453F9A00F7FBE6 /* Build configuration list for PBXProject "ProjectOxfordFaceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33957C41B453F9A00F7FBE6 /* Debug */,
+				C33957C51B453F9A00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33957C61B453F9A00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33957C71B453F9A00F7FBE6 /* Debug */,
+				C33957C81B453F9A00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33957C91B453F9A00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33957CA1B453F9A00F7FBE6 /* Debug */,
+				C33957CB1B453F9A00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33957AA1B453F9A00F7FBE6 /* Project object */;
+}

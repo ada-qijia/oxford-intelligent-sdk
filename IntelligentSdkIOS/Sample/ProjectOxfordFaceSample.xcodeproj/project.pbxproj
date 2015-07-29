@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31F26341B5E47EE00F70B0A /* DetectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F26241B5E47EE00F70B0A /* DetectionViewController.m */; };
+		C31F26351B5E47EE00F70B0A /* DetectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F26251B5E47EE00F70B0A /* DetectionViewController.xib */; };
+		C31F26361B5E47EE00F70B0A /* FindSimilarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F26271B5E47EE00F70B0A /* FindSimilarViewController.m */; };
+		C31F26371B5E47EE00F70B0A /* FindSimilarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F26281B5E47EE00F70B0A /* FindSimilarViewController.xib */; };
+		C31F26381B5E47EE00F70B0A /* GroupingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F262A1B5E47EE00F70B0A /* GroupingViewController.m */; };
+		C31F26391B5E47EE00F70B0A /* GroupingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F262B1B5E47EE00F70B0A /* GroupingViewController.xib */; };
+		C31F263A1B5E47EE00F70B0A /* LooseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F262D1B5E47EE00F70B0A /* LooseTableViewCell.m */; };
+		C31F263B1B5E47EE00F70B0A /* OthersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F262F1B5E47EE00F70B0A /* OthersViewController.m */; };
+		C31F263C1B5E47EE00F70B0A /* OthersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F26301B5E47EE00F70B0A /* OthersViewController.xib */; };
+		C31F263D1B5E47EE00F70B0A /* VerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31F26321B5E47EE00F70B0A /* VerificationViewController.m */; };
+		C31F263E1B5E47EE00F70B0A /* VerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C31F26331B5E47EE00F70B0A /* VerificationViewController.xib */; };
+		C3320DB91B5649890061136A /* Family1-Dad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB21B5649890061136A /* Family1-Dad1.jpg */; };
+		C3320DBA1B5649890061136A /* Family1-Dad2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB31B5649890061136A /* Family1-Dad2.jpg */; };
+		C3320DBB1B5649890061136A /* Family1-Dad3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB41B5649890061136A /* Family1-Dad3.jpg */; };
+		C3320DBC1B5649890061136A /* Family1-Daughter1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB51B5649890061136A /* Family1-Daughter1.jpg */; };
+		C3320DBD1B5649890061136A /* Family1-Daughter2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB61B5649890061136A /* Family1-Daughter2.jpg */; };
+		C3320DBE1B5649890061136A /* Family1-Daughter3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB71B5649890061136A /* Family1-Daughter3.jpg */; };
+		C3320DBF1B5649890061136A /* Family1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3320DB81B5649890061136A /* Family1.jpg */; };
+		C33958C71B4A529E00F7FBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958C61B4A529E00F7FBE6 /* main.m */; };
+		C33958CA1B4A529E00F7FBE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958C91B4A529E00F7FBE6 /* AppDelegate.m */; };
+		C33958CD1B4A529E00F7FBE6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958CC1B4A529E00F7FBE6 /* MasterViewController.m */; };
+		C33958D31B4A529E00F7FBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33958D11B4A529E00F7FBE6 /* Main.storyboard */; };
+		C33958D51B4A529E00F7FBE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33958D41B4A529E00F7FBE6 /* Images.xcassets */; };
+		C33958D81B4A529E00F7FBE6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33958D61B4A529E00F7FBE6 /* LaunchScreen.xib */; };
+		C33958E41B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33958E31B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.m */; };
+		C33958F81B4A537C00F7FBE6 /* libProjectOxfordFaceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33958F31B4A536F00F7FBE6 /* libProjectOxfordFaceLib.a */; };
+		C33959401B4EA20D00F7FBE6 /* SampleCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C339593F1B4EA20D00F7FBE6 /* SampleCommon.m */; };
+		C33959431B4F93CB00F7FBE6 /* Verification 1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33959411B4F93CB00F7FBE6 /* Verification 1-1.jpg */; };
+		C33959441B4F93CB00F7FBE6 /* Verification 1-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33959421B4F93CB00F7FBE6 /* Verification 1-2.jpg */; };
+		C339594D1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C339594C1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.m */; };
+		C33959501B4FC37300F7FBE6 /* MOFImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C339594F1B4FC37300F7FBE6 /* MOFImagePickerController.m */; };
+		C33959531B4FD5AE00F7FBE6 /* MOFImagesPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33959521B4FD5AE00F7FBE6 /* MOFImagesPickerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33958DE1B4A529E00F7FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33958B91B4A529E00F7FBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33958C01B4A529E00F7FBE6;
+			remoteInfo = ProjectOxfordFaceSample;
+		};
+		C33958F21B4A536F00F7FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C33957B21B453F9A00F7FBE6;
+			remoteInfo = ProjectOxfordFaceLib;
+		};
+		C33958F41B4A536F00F7FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C33957BD1B453F9A00F7FBE6;
+			remoteInfo = ProjectOxfordFaceLibTests;
+		};
+		C33958F61B4A537700F7FBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C33957B11B453F9A00F7FBE6;
+			remoteInfo = ProjectOxfordFaceLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31F26231B5E47EE00F70B0A /* DetectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectionViewController.h; sourceTree = "<group>"; };
+		C31F26241B5E47EE00F70B0A /* DetectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectionViewController.m; sourceTree = "<group>"; };
+		C31F26251B5E47EE00F70B0A /* DetectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetectionViewController.xib; sourceTree = "<group>"; };
+		C31F26261B5E47EE00F70B0A /* FindSimilarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindSimilarViewController.h; sourceTree = "<group>"; };
+		C31F26271B5E47EE00F70B0A /* FindSimilarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindSimilarViewController.m; sourceTree = "<group>"; };
+		C31F26281B5E47EE00F70B0A /* FindSimilarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindSimilarViewController.xib; sourceTree = "<group>"; };
+		C31F26291B5E47EE00F70B0A /* GroupingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupingViewController.h; sourceTree = "<group>"; };
+		C31F262A1B5E47EE00F70B0A /* GroupingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupingViewController.m; sourceTree = "<group>"; };
+		C31F262B1B5E47EE00F70B0A /* GroupingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupingViewController.xib; sourceTree = "<group>"; };
+		C31F262C1B5E47EE00F70B0A /* LooseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LooseTableViewCell.h; sourceTree = "<group>"; };
+		C31F262D1B5E47EE00F70B0A /* LooseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LooseTableViewCell.m; sourceTree = "<group>"; };
+		C31F262E1B5E47EE00F70B0A /* OthersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OthersViewController.h; sourceTree = "<group>"; };
+		C31F262F1B5E47EE00F70B0A /* OthersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OthersViewController.m; sourceTree = "<group>"; };
+		C31F26301B5E47EE00F70B0A /* OthersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OthersViewController.xib; sourceTree = "<group>"; };
+		C31F26311B5E47EE00F70B0A /* VerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationViewController.h; sourceTree = "<group>"; };
+		C31F26321B5E47EE00F70B0A /* VerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationViewController.m; sourceTree = "<group>"; };
+		C31F26331B5E47EE00F70B0A /* VerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerificationViewController.xib; sourceTree = "<group>"; };
+		C3320DB21B5649890061136A /* Family1-Dad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Dad1.jpg"; sourceTree = "<group>"; };
+		C3320DB31B5649890061136A /* Family1-Dad2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Dad2.jpg"; sourceTree = "<group>"; };
+		C3320DB41B5649890061136A /* Family1-Dad3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Dad3.jpg"; sourceTree = "<group>"; };
+		C3320DB51B5649890061136A /* Family1-Daughter1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Daughter1.jpg"; sourceTree = "<group>"; };
+		C3320DB61B5649890061136A /* Family1-Daughter2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Daughter2.jpg"; sourceTree = "<group>"; };
+		C3320DB71B5649890061136A /* Family1-Daughter3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Family1-Daughter3.jpg"; sourceTree = "<group>"; };
+		C3320DB81B5649890061136A /* Family1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Family1.jpg; sourceTree = "<group>"; };
+		C33958C11B4A529E00F7FBE6 /* ProjectOxfordFaceSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOxfordFaceSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33958C51B4A529E00F7FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33958C61B4A529E00F7FBE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33958C81B4A529E00F7FBE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C33958C91B4A529E00F7FBE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33958CB1B4A529E00F7FBE6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C33958CC1B4A529E00F7FBE6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C33958D21B4A529E00F7FBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33958D41B4A529E00F7FBE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C33958D71B4A529E00F7FBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C33958DD1B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOxfordFaceSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33958E21B4A529E00F7FBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33958E31B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectOxfordFaceSampleTests.m; sourceTree = "<group>"; };
+		C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProjectOxfordFaceLib.xcodeproj; path = ../ClassLibrary/ProjectOxfordFaceLib.xcodeproj; sourceTree = "<group>"; };
+		C339593E1B4EA20D00F7FBE6 /* SampleCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCommon.h; sourceTree = "<group>"; };
+		C339593F1B4EA20D00F7FBE6 /* SampleCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCommon.m; sourceTree = "<group>"; };
+		C33959411B4F93CB00F7FBE6 /* Verification 1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Verification 1-1.jpg"; sourceTree = "<group>"; };
+		C33959421B4F93CB00F7FBE6 /* Verification 1-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Verification 1-2.jpg"; sourceTree = "<group>"; };
+		C339594B1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFAlbumPickerController.h; sourceTree = "<group>"; };
+		C339594C1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFAlbumPickerController.m; sourceTree = "<group>"; };
+		C339594E1B4FC37300F7FBE6 /* MOFImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFImagePickerController.h; sourceTree = "<group>"; };
+		C339594F1B4FC37300F7FBE6 /* MOFImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFImagePickerController.m; sourceTree = "<group>"; };
+		C33959511B4FD5AE00F7FBE6 /* MOFImagesPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFImagesPickerController.h; sourceTree = "<group>"; };
+		C33959521B4FD5AE00F7FBE6 /* MOFImagesPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOFImagesPickerController.m; sourceTree = "<group>"; };
+		C33959591B53960600F7FBE6 /* MOFAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOFAssetSelectionDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33958BE1B4A529E00F7FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33958F81B4A537C00F7FBE6 /* libProjectOxfordFaceLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33958DA1B4A529E00F7FBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33958B81B4A529E00F7FBE6 = {
+			isa = PBXGroup;
+			children = (
+				C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */,
+				C33958C31B4A529E00F7FBE6 /* ProjectOxfordFaceSample */,
+				C33958E01B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests */,
+				C33958C21B4A529E00F7FBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33958C21B4A529E00F7FBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33958C11B4A529E00F7FBE6 /* ProjectOxfordFaceSample.app */,
+				C33958DD1B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33958C31B4A529E00F7FBE6 /* ProjectOxfordFaceSample */ = {
+			isa = PBXGroup;
+			children = (
+				C34C3A7D1B55F65200F4F515 /* Scenario */,
+				C339594A1B4FBC3900F7FBE6 /* MOFImagesPicker */,
+				C339593D1B4EA0FA00F7FBE6 /* Images */,
+				C339593C1B4EA0A000F7FBE6 /* Common */,
+				C33958C81B4A529E00F7FBE6 /* AppDelegate.h */,
+				C33958C91B4A529E00F7FBE6 /* AppDelegate.m */,
+				C33958CB1B4A529E00F7FBE6 /* MasterViewController.h */,
+				C33958CC1B4A529E00F7FBE6 /* MasterViewController.m */,
+				C33958D11B4A529E00F7FBE6 /* Main.storyboard */,
+				C33958D41B4A529E00F7FBE6 /* Images.xcassets */,
+				C33958D61B4A529E00F7FBE6 /* LaunchScreen.xib */,
+				C33958C41B4A529E00F7FBE6 /* Supporting Files */,
+			);
+			path = ProjectOxfordFaceSample;
+			sourceTree = "<group>";
+		};
+		C33958C41B4A529E00F7FBE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33958C51B4A529E00F7FBE6 /* Info.plist */,
+				C33958C61B4A529E00F7FBE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33958E01B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33958E31B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.m */,
+				C33958E11B4A529E00F7FBE6 /* Supporting Files */,
+			);
+			path = ProjectOxfordFaceSampleTests;
+			sourceTree = "<group>";
+		};
+		C33958E11B4A529E00F7FBE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33958E21B4A529E00F7FBE6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33958EE1B4A536F00F7FBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33958F31B4A536F00F7FBE6 /* libProjectOxfordFaceLib.a */,
+				C33958F51B4A536F00F7FBE6 /* ProjectOxfordFaceLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C339593C1B4EA0A000F7FBE6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C339593E1B4EA20D00F7FBE6 /* SampleCommon.h */,
+				C339593F1B4EA20D00F7FBE6 /* SampleCommon.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C339593D1B4EA0FA00F7FBE6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C3320DB21B5649890061136A /* Family1-Dad1.jpg */,
+				C3320DB31B5649890061136A /* Family1-Dad2.jpg */,
+				C3320DB41B5649890061136A /* Family1-Dad3.jpg */,
+				C3320DB51B5649890061136A /* Family1-Daughter1.jpg */,
+				C3320DB61B5649890061136A /* Family1-Daughter2.jpg */,
+				C3320DB71B5649890061136A /* Family1-Daughter3.jpg */,
+				C3320DB81B5649890061136A /* Family1.jpg */,
+				C33959411B4F93CB00F7FBE6 /* Verification 1-1.jpg */,
+				C33959421B4F93CB00F7FBE6 /* Verification 1-2.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C339594A1B4FBC3900F7FBE6 /* MOFImagesPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C339594B1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.h */,
+				C339594C1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.m */,
+				C339594E1B4FC37300F7FBE6 /* MOFImagePickerController.h */,
+				C339594F1B4FC37300F7FBE6 /* MOFImagePickerController.m */,
+				C33959511B4FD5AE00F7FBE6 /* MOFImagesPickerController.h */,
+				C33959521B4FD5AE00F7FBE6 /* MOFImagesPickerController.m */,
+				C33959591B53960600F7FBE6 /* MOFAssetSelectionDelegate.h */,
+			);
+			name = MOFImagesPicker;
+			path = MOMultipleImagePicker;
+			sourceTree = "<group>";
+		};
+		C34C3A7D1B55F65200F4F515 /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				C31F26231B5E47EE00F70B0A /* DetectionViewController.h */,
+				C31F26241B5E47EE00F70B0A /* DetectionViewController.m */,
+				C31F26251B5E47EE00F70B0A /* DetectionViewController.xib */,
+				C31F26261B5E47EE00F70B0A /* FindSimilarViewController.h */,
+				C31F26271B5E47EE00F70B0A /* FindSimilarViewController.m */,
+				C31F26281B5E47EE00F70B0A /* FindSimilarViewController.xib */,
+				C31F26291B5E47EE00F70B0A /* GroupingViewController.h */,
+				C31F262A1B5E47EE00F70B0A /* GroupingViewController.m */,
+				C31F262B1B5E47EE00F70B0A /* GroupingViewController.xib */,
+				C31F262C1B5E47EE00F70B0A /* LooseTableViewCell.h */,
+				C31F262D1B5E47EE00F70B0A /* LooseTableViewCell.m */,
+				C31F262E1B5E47EE00F70B0A /* OthersViewController.h */,
+				C31F262F1B5E47EE00F70B0A /* OthersViewController.m */,
+				C31F26301B5E47EE00F70B0A /* OthersViewController.xib */,
+				C31F26311B5E47EE00F70B0A /* VerificationViewController.h */,
+				C31F26321B5E47EE00F70B0A /* VerificationViewController.m */,
+				C31F26331B5E47EE00F70B0A /* VerificationViewController.xib */,
+			);
+			path = Scenario;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33958C01B4A529E00F7FBE6 /* ProjectOxfordFaceSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33958E71B4A529E00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceSample" */;
+			buildPhases = (
+				C33958BD1B4A529E00F7FBE6 /* Sources */,
+				C33958BE1B4A529E00F7FBE6 /* Frameworks */,
+				C33958BF1B4A529E00F7FBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33958F71B4A537700F7FBE6 /* PBXTargetDependency */,
+			);
+			name = ProjectOxfordFaceSample;
+			productName = ProjectOxfordFaceSample;
+			productReference = C33958C11B4A529E00F7FBE6 /* ProjectOxfordFaceSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33958DC1B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33958EA1B4A529E00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceSampleTests" */;
+			buildPhases = (
+				C33958D91B4A529E00F7FBE6 /* Sources */,
+				C33958DA1B4A529E00F7FBE6 /* Frameworks */,
+				C33958DB1B4A529E00F7FBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33958DF1B4A529E00F7FBE6 /* PBXTargetDependency */,
+			);
+			name = ProjectOxfordFaceSampleTests;
+			productName = ProjectOxfordFaceSampleTests;
+			productReference = C33958DD1B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33958B91B4A529E00F7FBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					C33958C01B4A529E00F7FBE6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = R682UNR2K5;
+					};
+					C33958DC1B4A529E00F7FBE6 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C33958C01B4A529E00F7FBE6;
+					};
+				};
+			};
+			buildConfigurationList = C33958BC1B4A529E00F7FBE6 /* Build configuration list for PBXProject "ProjectOxfordFaceSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33958B81B4A529E00F7FBE6;
+			productRefGroup = C33958C21B4A529E00F7FBE6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C33958EE1B4A536F00F7FBE6 /* Products */;
+					ProjectRef = C33958ED1B4A536F00F7FBE6 /* ProjectOxfordFaceLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C33958C01B4A529E00F7FBE6 /* ProjectOxfordFaceSample */,
+				C33958DC1B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C33958F31B4A536F00F7FBE6 /* libProjectOxfordFaceLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProjectOxfordFaceLib.a;
+			remoteRef = C33958F21B4A536F00F7FBE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C33958F51B4A536F00F7FBE6 /* ProjectOxfordFaceLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ProjectOxfordFaceLibTests.xctest;
+			remoteRef = C33958F41B4A536F00F7FBE6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33958BF1B4A529E00F7FBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3320DBC1B5649890061136A /* Family1-Daughter1.jpg in Resources */,
+				C3320DBE1B5649890061136A /* Family1-Daughter3.jpg in Resources */,
+				C3320DB91B5649890061136A /* Family1-Dad1.jpg in Resources */,
+				C31F263E1B5E47EE00F70B0A /* VerificationViewController.xib in Resources */,
+				C31F26391B5E47EE00F70B0A /* GroupingViewController.xib in Resources */,
+				C33958D31B4A529E00F7FBE6 /* Main.storyboard in Resources */,
+				C33958D81B4A529E00F7FBE6 /* LaunchScreen.xib in Resources */,
+				C3320DBA1B5649890061136A /* Family1-Dad2.jpg in Resources */,
+				C33958D51B4A529E00F7FBE6 /* Images.xcassets in Resources */,
+				C33959431B4F93CB00F7FBE6 /* Verification 1-1.jpg in Resources */,
+				C3320DBD1B5649890061136A /* Family1-Daughter2.jpg in Resources */,
+				C31F26371B5E47EE00F70B0A /* FindSimilarViewController.xib in Resources */,
+				C33959441B4F93CB00F7FBE6 /* Verification 1-2.jpg in Resources */,
+				C3320DBB1B5649890061136A /* Family1-Dad3.jpg in Resources */,
+				C31F263C1B5E47EE00F70B0A /* OthersViewController.xib in Resources */,
+				C3320DBF1B5649890061136A /* Family1.jpg in Resources */,
+				C31F26351B5E47EE00F70B0A /* DetectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33958DB1B4A529E00F7FBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33958BD1B4A529E00F7FBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33959531B4FD5AE00F7FBE6 /* MOFImagesPickerController.m in Sources */,
+				C31F26361B5E47EE00F70B0A /* FindSimilarViewController.m in Sources */,
+				C339594D1B4FBC7E00F7FBE6 /* MOFAlbumPickerController.m in Sources */,
+				C31F26341B5E47EE00F70B0A /* DetectionViewController.m in Sources */,
+				C33958CA1B4A529E00F7FBE6 /* AppDelegate.m in Sources */,
+				C33958CD1B4A529E00F7FBE6 /* MasterViewController.m in Sources */,
+				C31F263D1B5E47EE00F70B0A /* VerificationViewController.m in Sources */,
+				C33958C71B4A529E00F7FBE6 /* main.m in Sources */,
+				C33959401B4EA20D00F7FBE6 /* SampleCommon.m in Sources */,
+				C33959501B4FC37300F7FBE6 /* MOFImagePickerController.m in Sources */,
+				C31F263B1B5E47EE00F70B0A /* OthersViewController.m in Sources */,
+				C31F26381B5E47EE00F70B0A /* GroupingViewController.m in Sources */,
+				C31F263A1B5E47EE00F70B0A /* LooseTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33958D91B4A529E00F7FBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33958E41B4A529E00F7FBE6 /* ProjectOxfordFaceSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33958DF1B4A529E00F7FBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33958C01B4A529E00F7FBE6 /* ProjectOxfordFaceSample */;
+			targetProxy = C33958DE1B4A529E00F7FBE6 /* PBXContainerItemProxy */;
+		};
+		C33958F71B4A537700F7FBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProjectOxfordFaceLib;
+			targetProxy = C33958F61B4A537700F7FBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33958D11B4A529E00F7FBE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33958D21B4A529E00F7FBE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33958D61B4A529E00F7FBE6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33958D71B4A529E00F7FBE6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33958E51B4A529E00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33958E61B4A529E00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33958E81B4A529E00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProjectOxfordFaceSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C33958E91B4A529E00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ProjectOxfordFaceSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C33958EB1B4A529E00F7FBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordFaceSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOxfordFaceSample.app/ProjectOxfordFaceSample";
+			};
+			name = Debug;
+		};
+		C33958EC1B4A529E00F7FBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordFaceSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOxfordFaceSample.app/ProjectOxfordFaceSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33958BC1B4A529E00F7FBE6 /* Build configuration list for PBXProject "ProjectOxfordFaceSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33958E51B4A529E00F7FBE6 /* Debug */,
+				C33958E61B4A529E00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33958E71B4A529E00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33958E81B4A529E00F7FBE6 /* Debug */,
+				C33958E91B4A529E00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33958EA1B4A529E00F7FBE6 /* Build configuration list for PBXNativeTarget "ProjectOxfordFaceSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33958EB1B4A529E00F7FBE6 /* Debug */,
+				C33958EC1B4A529E00F7FBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33958B91B4A529E00F7FBE6 /* Project object */;
+}
