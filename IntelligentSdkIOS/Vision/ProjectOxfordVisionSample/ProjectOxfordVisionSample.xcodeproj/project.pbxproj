@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33D81DB1B4118F50082EAA5 /* libProjectOxfordVision.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C33D81D81B4118E50082EAA5 /* libProjectOxfordVision.a */; };
+		C36FB70F1B3BFAB100CFC3F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB70E1B3BFAB100CFC3F9 /* main.m */; };
+		C36FB7121B3BFAB100CFC3F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7111B3BFAB100CFC3F9 /* AppDelegate.m */; };
+		C36FB7181B3BFAB100CFC3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36FB7161B3BFAB100CFC3F9 /* Main.storyboard */; };
+		C36FB71A1B3BFAB100CFC3F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36FB7191B3BFAB100CFC3F9 /* Images.xcassets */; };
+		C36FB71D1B3BFAB100CFC3F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36FB71B1B3BFAB100CFC3F9 /* LaunchScreen.xib */; };
+		C36FB7291B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7281B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.m */; };
+		C36FB79E1B3BFD0B00CFC3F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB79D1B3BFD0B00CFC3F9 /* ViewController.m */; };
+		C36FB7A01B3BFD5C00CFC3F9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C36FB79F1B3BFD5C00CFC3F9 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33D81D71B4118E50082EAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36FB7321B3BFAC600CFC3F9 /* ProjectOxfordVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C36FB6E61B3BFA4400CFC3F9;
+			remoteInfo = ProjectOxfordVision;
+		};
+		C33D81D91B4118EF0082EAA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36FB7321B3BFAC600CFC3F9 /* ProjectOxfordVision.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C36FB6E51B3BFA4400CFC3F9;
+			remoteInfo = ProjectOxfordVision;
+		};
+		C36FB7231B3BFAB100CFC3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36FB7011B3BFAB100CFC3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36FB7081B3BFAB100CFC3F9;
+			remoteInfo = ProjectOxfordVisionSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36FB7091B3BFAB100CFC3F9 /* ProjectOxfordVisionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOxfordVisionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36FB70D1B3BFAB100CFC3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36FB70E1B3BFAB100CFC3F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C36FB7101B3BFAB100CFC3F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C36FB7111B3BFAB100CFC3F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C36FB7171B3BFAB100CFC3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36FB7191B3BFAB100CFC3F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C36FB71C1B3BFAB100CFC3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C36FB7221B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectOxfordVisionSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36FB7271B3BFAB100CFC3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36FB7281B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectOxfordVisionSampleTests.m; sourceTree = "<group>"; };
+		C36FB7321B3BFAC600CFC3F9 /* ProjectOxfordVision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProjectOxfordVision.xcodeproj; path = ../ClientLibrary/ProjectOxfordVision/ProjectOxfordVision.xcodeproj; sourceTree = "<group>"; };
+		C36FB79C1B3BFD0B00CFC3F9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C36FB79D1B3BFD0B00CFC3F9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C36FB79F1B3BFD5C00CFC3F9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36FB7061B3BFAB100CFC3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33D81DB1B4118F50082EAA5 /* libProjectOxfordVision.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36FB71F1B3BFAB100CFC3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33D81D41B4118E50082EAA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33D81D81B4118E50082EAA5 /* libProjectOxfordVision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36FB7001B3BFAB100CFC3F9 = {
+			isa = PBXGroup;
+			children = (
+				C36FB7321B3BFAC600CFC3F9 /* ProjectOxfordVision.xcodeproj */,
+				C36FB70B1B3BFAB100CFC3F9 /* ProjectOxfordVisionSample */,
+				C36FB7251B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests */,
+				C36FB70A1B3BFAB100CFC3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36FB70A1B3BFAB100CFC3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7091B3BFAB100CFC3F9 /* ProjectOxfordVisionSample.app */,
+				C36FB7221B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36FB70B1B3BFAB100CFC3F9 /* ProjectOxfordVisionSample */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB79F1B3BFD5C00CFC3F9 /* 1.jpg */,
+				C36FB79C1B3BFD0B00CFC3F9 /* ViewController.h */,
+				C36FB79D1B3BFD0B00CFC3F9 /* ViewController.m */,
+				C36FB7101B3BFAB100CFC3F9 /* AppDelegate.h */,
+				C36FB7111B3BFAB100CFC3F9 /* AppDelegate.m */,
+				C36FB7161B3BFAB100CFC3F9 /* Main.storyboard */,
+				C36FB7191B3BFAB100CFC3F9 /* Images.xcassets */,
+				C36FB71B1B3BFAB100CFC3F9 /* LaunchScreen.xib */,
+				C36FB70C1B3BFAB100CFC3F9 /* Supporting Files */,
+			);
+			path = ProjectOxfordVisionSample;
+			sourceTree = "<group>";
+		};
+		C36FB70C1B3BFAB100CFC3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB70D1B3BFAB100CFC3F9 /* Info.plist */,
+				C36FB70E1B3BFAB100CFC3F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36FB7251B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7281B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.m */,
+				C36FB7261B3BFAB100CFC3F9 /* Supporting Files */,
+			);
+			path = ProjectOxfordVisionSampleTests;
+			sourceTree = "<group>";
+		};
+		C36FB7261B3BFAB100CFC3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7271B3BFAB100CFC3F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36FB7081B3BFAB100CFC3F9 /* ProjectOxfordVisionSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36FB72C1B3BFAB100CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVisionSample" */;
+			buildPhases = (
+				C36FB7051B3BFAB100CFC3F9 /* Sources */,
+				C36FB7061B3BFAB100CFC3F9 /* Frameworks */,
+				C36FB7071B3BFAB100CFC3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33D81DA1B4118EF0082EAA5 /* PBXTargetDependency */,
+			);
+			name = ProjectOxfordVisionSample;
+			productName = ProjectOxfordVisionSample;
+			productReference = C36FB7091B3BFAB100CFC3F9 /* ProjectOxfordVisionSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36FB7211B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36FB72F1B3BFAB100CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVisionSampleTests" */;
+			buildPhases = (
+				C36FB71E1B3BFAB100CFC3F9 /* Sources */,
+				C36FB71F1B3BFAB100CFC3F9 /* Frameworks */,
+				C36FB7201B3BFAB100CFC3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36FB7241B3BFAB100CFC3F9 /* PBXTargetDependency */,
+			);
+			name = ProjectOxfordVisionSampleTests;
+			productName = ProjectOxfordVisionSampleTests;
+			productReference = C36FB7221B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36FB7011B3BFAB100CFC3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					C36FB7081B3BFAB100CFC3F9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C36FB7211B3BFAB100CFC3F9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C36FB7081B3BFAB100CFC3F9;
+					};
+				};
+			};
+			buildConfigurationList = C36FB7041B3BFAB100CFC3F9 /* Build configuration list for PBXProject "ProjectOxfordVisionSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C36FB7001B3BFAB100CFC3F9;
+			productRefGroup = C36FB70A1B3BFAB100CFC3F9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C33D81D41B4118E50082EAA5 /* Products */;
+					ProjectRef = C36FB7321B3BFAC600CFC3F9 /* ProjectOxfordVision.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C36FB7081B3BFAB100CFC3F9 /* ProjectOxfordVisionSample */,
+				C36FB7211B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C33D81D81B4118E50082EAA5 /* libProjectOxfordVision.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProjectOxfordVision.a;
+			remoteRef = C33D81D71B4118E50082EAA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36FB7071B3BFAB100CFC3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36FB7181B3BFAB100CFC3F9 /* Main.storyboard in Resources */,
+				C36FB7A01B3BFD5C00CFC3F9 /* 1.jpg in Resources */,
+				C36FB71D1B3BFAB100CFC3F9 /* LaunchScreen.xib in Resources */,
+				C36FB71A1B3BFAB100CFC3F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36FB7201B3BFAB100CFC3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36FB7051B3BFAB100CFC3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36FB79E1B3BFD0B00CFC3F9 /* ViewController.m in Sources */,
+				C36FB7121B3BFAB100CFC3F9 /* AppDelegate.m in Sources */,
+				C36FB70F1B3BFAB100CFC3F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36FB71E1B3BFAB100CFC3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36FB7291B3BFAB100CFC3F9 /* ProjectOxfordVisionSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33D81DA1B4118EF0082EAA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProjectOxfordVision;
+			targetProxy = C33D81D91B4118EF0082EAA5 /* PBXContainerItemProxy */;
+		};
+		C36FB7241B3BFAB100CFC3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36FB7081B3BFAB100CFC3F9 /* ProjectOxfordVisionSample */;
+			targetProxy = C36FB7231B3BFAB100CFC3F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36FB7161B3BFAB100CFC3F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36FB7171B3BFAB100CFC3F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C36FB71B1B3BFAB100CFC3F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36FB71C1B3BFAB100CFC3F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36FB72A1B3BFAB100CFC3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C36FB72B1B3BFAB100CFC3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36FB72D1B3BFAB100CFC3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectOxfordVisionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C36FB72E1B3BFAB100CFC3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProjectOxfordVisionSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C36FB7301B3BFAB100CFC3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordVisionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOxfordVisionSample.app/ProjectOxfordVisionSample";
+			};
+			name = Debug;
+		};
+		C36FB7311B3BFAB100CFC3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ProjectOxfordVisionSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectOxfordVisionSample.app/ProjectOxfordVisionSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36FB7041B3BFAB100CFC3F9 /* Build configuration list for PBXProject "ProjectOxfordVisionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36FB72A1B3BFAB100CFC3F9 /* Debug */,
+				C36FB72B1B3BFAB100CFC3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36FB72C1B3BFAB100CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVisionSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36FB72D1B3BFAB100CFC3F9 /* Debug */,
+				C36FB72E1B3BFAB100CFC3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36FB72F1B3BFAB100CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVisionSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36FB7301B3BFAB100CFC3F9 /* Debug */,
+				C36FB7311B3BFAB100CFC3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36FB7011B3BFAB100CFC3F9 /* Project object */;
+}

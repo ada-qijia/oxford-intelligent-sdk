@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36FB6EA1B3BFA4400CFC3F9 /* ProjectOxfordVision.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB6E91B3BFA4400CFC3F9 /* ProjectOxfordVision.h */; };
+		C36FB77F1B3BFB3600CFC3F9 /* ClientError.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB73C1B3BFB3600CFC3F9 /* ClientError.m */; };
+		C36FB7811B3BFB3600CFC3F9 /* Adult.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7411B3BFB3600CFC3F9 /* Adult.m */; };
+		C36FB7821B3BFB3600CFC3F9 /* AnalysisResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7431B3BFB3600CFC3F9 /* AnalysisResult.m */; };
+		C36FB7831B3BFB3600CFC3F9 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7451B3BFB3600CFC3F9 /* Color.m */; };
+		C36FB7841B3BFB3600CFC3F9 /* Face.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7471B3BFB3600CFC3F9 /* Face.m */; };
+		C36FB7851B3BFB3600CFC3F9 /* FaceRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7491B3BFB3600CFC3F9 /* FaceRectangle.m */; };
+		C36FB7861B3BFB3600CFC3F9 /* ImageType.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB74B1B3BFB3600CFC3F9 /* ImageType.m */; };
+		C36FB7871B3BFB3600CFC3F9 /* LanguageCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB74D1B3BFB3600CFC3F9 /* LanguageCodes.m */; };
+		C36FB7881B3BFB3600CFC3F9 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB74F1B3BFB3600CFC3F9 /* Line.m */; };
+		C36FB7891B3BFB3600CFC3F9 /* MetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7511B3BFB3600CFC3F9 /* MetaData.m */; };
+		C36FB78A1B3BFB3600CFC3F9 /* OcrResults.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7531B3BFB3600CFC3F9 /* OcrResults.m */; };
+		C36FB78B1B3BFB3600CFC3F9 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7551B3BFB3600CFC3F9 /* Rectangle.m */; };
+		C36FB78C1B3BFB3600CFC3F9 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7571B3BFB3600CFC3F9 /* Region.m */; };
+		C36FB78D1B3BFB3600CFC3F9 /* VisionCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7591B3BFB3600CFC3F9 /* VisionCategory.m */; };
+		C36FB78E1B3BFB3600CFC3F9 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB75B1B3BFB3600CFC3F9 /* Word.m */; };
+		C36FB78F1B3BFB3600CFC3F9 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB75F1B3BFB3600CFC3F9 /* JSONModel.m */; };
+		C36FB7901B3BFB3600CFC3F9 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7611B3BFB3600CFC3F9 /* JSONModelArray.m */; };
+		C36FB7911B3BFB3600CFC3F9 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7631B3BFB3600CFC3F9 /* JSONModelClassProperty.m */; };
+		C36FB7921B3BFB3600CFC3F9 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7651B3BFB3600CFC3F9 /* JSONModelError.m */; };
+		C36FB7931B3BFB3600CFC3F9 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7681B3BFB3600CFC3F9 /* NSArray+JSONModel.m */; };
+		C36FB7941B3BFB3600CFC3F9 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB76C1B3BFB3600CFC3F9 /* JSONAPI.m */; };
+		C36FB7951B3BFB3600CFC3F9 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB76E1B3BFB3600CFC3F9 /* JSONHTTPClient.m */; };
+		C36FB7961B3BFB3600CFC3F9 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7701B3BFB3600CFC3F9 /* JSONModel+networking.m */; };
+		C36FB7971B3BFB3600CFC3F9 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7731B3BFB3600CFC3F9 /* JSONKeyMapper.m */; };
+		C36FB7981B3BFB3600CFC3F9 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7751B3BFB3600CFC3F9 /* JSONValueTransformer.m */; };
+		C36FB7991B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB7781B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.m */; };
+		C36FB79A1B3BFB3600CFC3F9 /* OptionalPropJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB77A1B3BFB3600CFC3F9 /* OptionalPropJSONModel.m */; };
+		C36FB79B1B3BFB3600CFC3F9 /* VisionServiceClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FB77D1B3BFB3600CFC3F9 /* VisionServiceClient.m */; };
+		C36FB7A21B3BFEFF00CFC3F9 /* Adult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7401B3BFB3600CFC3F9 /* Adult.h */; };
+		C36FB7A31B3BFF0500CFC3F9 /* Face.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7461B3BFB3600CFC3F9 /* Face.h */; };
+		C36FB7A41B3BFF0E00CFC3F9 /* AnalysisResult.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7421B3BFB3600CFC3F9 /* AnalysisResult.h */; };
+		C36FB7A51B3BFF1A00CFC3F9 /* Color.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7441B3BFB3600CFC3F9 /* Color.h */; };
+		C36FB7A61B3BFF2500CFC3F9 /* ClientError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB73B1B3BFB3600CFC3F9 /* ClientError.h */; };
+		C36FB7A71B3BFF2B00CFC3F9 /* FaceRectangle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7481B3BFB3600CFC3F9 /* FaceRectangle.h */; };
+		C36FB7A81B3BFF2E00CFC3F9 /* ImageType.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB74A1B3BFB3600CFC3F9 /* ImageType.h */; };
+		C36FB7A91B3BFF3200CFC3F9 /* LanguageCodes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB74C1B3BFB3600CFC3F9 /* LanguageCodes.h */; };
+		C36FB7AA1B3BFF3800CFC3F9 /* Line.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB74E1B3BFB3600CFC3F9 /* Line.h */; };
+		C36FB7AB1B3BFF3C00CFC3F9 /* Metadata.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7501B3BFB3600CFC3F9 /* Metadata.h */; };
+		C36FB7AC1B3BFF4200CFC3F9 /* OcrResults.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7521B3BFB3600CFC3F9 /* OcrResults.h */; };
+		C36FB7AD1B3BFF4600CFC3F9 /* Rectangle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7541B3BFB3600CFC3F9 /* Rectangle.h */; };
+		C36FB7AE1B3BFF4C00CFC3F9 /* Region.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7561B3BFB3600CFC3F9 /* Region.h */; };
+		C36FB7AF1B3BFF5100CFC3F9 /* VisionCategory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7581B3BFB3600CFC3F9 /* VisionCategory.h */; };
+		C36FB7B01B3BFF5800CFC3F9 /* Word.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB75A1B3BFB3600CFC3F9 /* Word.h */; };
+		C36FB7B11B3BFF6900CFC3F9 /* JSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB75E1B3BFB3600CFC3F9 /* JSONModel.h */; };
+		C36FB7B21B3BFF6F00CFC3F9 /* JSONModelArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7601B3BFB3600CFC3F9 /* JSONModelArray.h */; };
+		C36FB7B31B3BFF7900CFC3F9 /* JSONModelClassProperty.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7621B3BFB3600CFC3F9 /* JSONModelClassProperty.h */; };
+		C36FB7B41B3BFF8000CFC3F9 /* JSONModelError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7641B3BFB3600CFC3F9 /* JSONModelError.h */; };
+		C36FB7B51B3BFF8900CFC3F9 /* NSArray+JSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7671B3BFB3600CFC3F9 /* NSArray+JSONModel.h */; };
+		C36FB7B61B3BFF9300CFC3F9 /* JSONModelLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7691B3BFB3600CFC3F9 /* JSONModelLib.h */; };
+		C36FB7B71B3BFFB000CFC3F9 /* JSONAPI.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB76B1B3BFB3600CFC3F9 /* JSONAPI.h */; };
+		C36FB7B91B3BFFB000CFC3F9 /* JSONHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB76D1B3BFB3600CFC3F9 /* JSONHTTPClient.h */; };
+		C36FB7BB1B3BFFB000CFC3F9 /* JSONModel+networking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB76F1B3BFB3600CFC3F9 /* JSONModel+networking.h */; };
+		C36FB7BD1B3BFFB000CFC3F9 /* JSONKeyMapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7721B3BFB3600CFC3F9 /* JSONKeyMapper.h */; };
+		C36FB7BF1B3BFFB000CFC3F9 /* JSONValueTransformer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7741B3BFB3600CFC3F9 /* JSONValueTransformer.h */; };
+		C36FB7C11B3BFFB000CFC3F9 /* JSONKeyMapper+CamelCase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7771B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.h */; };
+		C36FB7C31B3BFFB000CFC3F9 /* OptionalPropJSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB7791B3BFB3600CFC3F9 /* OptionalPropJSONModel.h */; };
+		C36FB7C61B3BFFB000CFC3F9 /* VisionServiceClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB77C1B3BFB3600CFC3F9 /* VisionServiceClient.h */; };
+		C36FB7C81B3BFFB000CFC3F9 /* VisionServiceClientProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C36FB77E1B3BFB3600CFC3F9 /* VisionServiceClientProtocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C36FB6E41B3BFA4400CFC3F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C36FB7B71B3BFFB000CFC3F9 /* JSONAPI.h in CopyFiles */,
+				C36FB7B91B3BFFB000CFC3F9 /* JSONHTTPClient.h in CopyFiles */,
+				C36FB7BB1B3BFFB000CFC3F9 /* JSONModel+networking.h in CopyFiles */,
+				C36FB7BD1B3BFFB000CFC3F9 /* JSONKeyMapper.h in CopyFiles */,
+				C36FB7BF1B3BFFB000CFC3F9 /* JSONValueTransformer.h in CopyFiles */,
+				C36FB7C11B3BFFB000CFC3F9 /* JSONKeyMapper+CamelCase.h in CopyFiles */,
+				C36FB7C31B3BFFB000CFC3F9 /* OptionalPropJSONModel.h in CopyFiles */,
+				C36FB7C61B3BFFB000CFC3F9 /* VisionServiceClient.h in CopyFiles */,
+				C36FB7C81B3BFFB000CFC3F9 /* VisionServiceClientProtocol.h in CopyFiles */,
+				C36FB7B61B3BFF9300CFC3F9 /* JSONModelLib.h in CopyFiles */,
+				C36FB7B51B3BFF8900CFC3F9 /* NSArray+JSONModel.h in CopyFiles */,
+				C36FB7B41B3BFF8000CFC3F9 /* JSONModelError.h in CopyFiles */,
+				C36FB7B31B3BFF7900CFC3F9 /* JSONModelClassProperty.h in CopyFiles */,
+				C36FB7B21B3BFF6F00CFC3F9 /* JSONModelArray.h in CopyFiles */,
+				C36FB7B11B3BFF6900CFC3F9 /* JSONModel.h in CopyFiles */,
+				C36FB7B01B3BFF5800CFC3F9 /* Word.h in CopyFiles */,
+				C36FB7AF1B3BFF5100CFC3F9 /* VisionCategory.h in CopyFiles */,
+				C36FB7AE1B3BFF4C00CFC3F9 /* Region.h in CopyFiles */,
+				C36FB7AD1B3BFF4600CFC3F9 /* Rectangle.h in CopyFiles */,
+				C36FB7AC1B3BFF4200CFC3F9 /* OcrResults.h in CopyFiles */,
+				C36FB7AB1B3BFF3C00CFC3F9 /* Metadata.h in CopyFiles */,
+				C36FB7AA1B3BFF3800CFC3F9 /* Line.h in CopyFiles */,
+				C36FB7A91B3BFF3200CFC3F9 /* LanguageCodes.h in CopyFiles */,
+				C36FB7A81B3BFF2E00CFC3F9 /* ImageType.h in CopyFiles */,
+				C36FB7A71B3BFF2B00CFC3F9 /* FaceRectangle.h in CopyFiles */,
+				C36FB7A61B3BFF2500CFC3F9 /* ClientError.h in CopyFiles */,
+				C36FB7A51B3BFF1A00CFC3F9 /* Color.h in CopyFiles */,
+				C36FB7A41B3BFF0E00CFC3F9 /* AnalysisResult.h in CopyFiles */,
+				C36FB7A31B3BFF0500CFC3F9 /* Face.h in CopyFiles */,
+				C36FB7A21B3BFEFF00CFC3F9 /* Adult.h in CopyFiles */,
+				C36FB6EA1B3BFA4400CFC3F9 /* ProjectOxfordVision.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C36FB6E61B3BFA4400CFC3F9 /* libProjectOxfordVision.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProjectOxfordVision.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36FB6E91B3BFA4400CFC3F9 /* ProjectOxfordVision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectOxfordVision.h; sourceTree = "<group>"; };
+		C36FB73B1B3BFB3600CFC3F9 /* ClientError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientError.h; sourceTree = "<group>"; };
+		C36FB73C1B3BFB3600CFC3F9 /* ClientError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientError.m; sourceTree = "<group>"; };
+		C36FB7401B3BFB3600CFC3F9 /* Adult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adult.h; sourceTree = "<group>"; };
+		C36FB7411B3BFB3600CFC3F9 /* Adult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adult.m; sourceTree = "<group>"; };
+		C36FB7421B3BFB3600CFC3F9 /* AnalysisResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalysisResult.h; sourceTree = "<group>"; };
+		C36FB7431B3BFB3600CFC3F9 /* AnalysisResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalysisResult.m; sourceTree = "<group>"; };
+		C36FB7441B3BFB3600CFC3F9 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		C36FB7451B3BFB3600CFC3F9 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		C36FB7461B3BFB3600CFC3F9 /* Face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Face.h; sourceTree = "<group>"; };
+		C36FB7471B3BFB3600CFC3F9 /* Face.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Face.m; sourceTree = "<group>"; };
+		C36FB7481B3BFB3600CFC3F9 /* FaceRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRectangle.h; sourceTree = "<group>"; };
+		C36FB7491B3BFB3600CFC3F9 /* FaceRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceRectangle.m; sourceTree = "<group>"; };
+		C36FB74A1B3BFB3600CFC3F9 /* ImageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageType.h; sourceTree = "<group>"; };
+		C36FB74B1B3BFB3600CFC3F9 /* ImageType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageType.m; sourceTree = "<group>"; };
+		C36FB74C1B3BFB3600CFC3F9 /* LanguageCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageCodes.h; sourceTree = "<group>"; };
+		C36FB74D1B3BFB3600CFC3F9 /* LanguageCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageCodes.m; sourceTree = "<group>"; };
+		C36FB74E1B3BFB3600CFC3F9 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Line.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB74F1B3BFB3600CFC3F9 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Line.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB7501B3BFB3600CFC3F9 /* Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Metadata.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB7511B3BFB3600CFC3F9 /* MetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MetaData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB7521B3BFB3600CFC3F9 /* OcrResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OcrResults.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB7531B3BFB3600CFC3F9 /* OcrResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OcrResults.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB7541B3BFB3600CFC3F9 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Rectangle.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB7551B3BFB3600CFC3F9 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Rectangle.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB7561B3BFB3600CFC3F9 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Region.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB7571B3BFB3600CFC3F9 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Region.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB7581B3BFB3600CFC3F9 /* VisionCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VisionCategory.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB7591B3BFB3600CFC3F9 /* VisionCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VisionCategory.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB75A1B3BFB3600CFC3F9 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Word.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB75B1B3BFB3600CFC3F9 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Word.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB75E1B3BFB3600CFC3F9 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		C36FB75F1B3BFB3600CFC3F9 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		C36FB7601B3BFB3600CFC3F9 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		C36FB7611B3BFB3600CFC3F9 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		C36FB7621B3BFB3600CFC3F9 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		C36FB7631B3BFB3600CFC3F9 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		C36FB7641B3BFB3600CFC3F9 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		C36FB7651B3BFB3600CFC3F9 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		C36FB7671B3BFB3600CFC3F9 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		C36FB7681B3BFB3600CFC3F9 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		C36FB7691B3BFB3600CFC3F9 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		C36FB76B1B3BFB3600CFC3F9 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		C36FB76C1B3BFB3600CFC3F9 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		C36FB76D1B3BFB3600CFC3F9 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		C36FB76E1B3BFB3600CFC3F9 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		C36FB76F1B3BFB3600CFC3F9 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		C36FB7701B3BFB3600CFC3F9 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		C36FB7721B3BFB3600CFC3F9 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		C36FB7731B3BFB3600CFC3F9 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		C36FB7741B3BFB3600CFC3F9 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		C36FB7751B3BFB3600CFC3F9 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		C36FB7771B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONKeyMapper+CamelCase.h"; sourceTree = "<group>"; };
+		C36FB7781B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONKeyMapper+CamelCase.m"; sourceTree = "<group>"; };
+		C36FB7791B3BFB3600CFC3F9 /* OptionalPropJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OptionalPropJSONModel.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB77A1B3BFB3600CFC3F9 /* OptionalPropJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OptionalPropJSONModel.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB77C1B3BFB3600CFC3F9 /* VisionServiceClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VisionServiceClient.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C36FB77D1B3BFB3600CFC3F9 /* VisionServiceClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = VisionServiceClient.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C36FB77E1B3BFB3600CFC3F9 /* VisionServiceClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = VisionServiceClientProtocol.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36FB6E31B3BFA4400CFC3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36FB6DD1B3BFA4400CFC3F9 = {
+			isa = PBXGroup;
+			children = (
+				C36FB6E81B3BFA4400CFC3F9 /* ProjectOxfordVision */,
+				C36FB6E71B3BFA4400CFC3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36FB6E71B3BFA4400CFC3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB6E61B3BFA4400CFC3F9 /* libProjectOxfordVision.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36FB6E81B3BFA4400CFC3F9 /* ProjectOxfordVision */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB73B1B3BFB3600CFC3F9 /* ClientError.h */,
+				C36FB73C1B3BFB3600CFC3F9 /* ClientError.m */,
+				C36FB73F1B3BFB3600CFC3F9 /* Contract */,
+				C36FB75C1B3BFB3600CFC3F9 /* JSONModel */,
+				C36FB7761B3BFB3600CFC3F9 /* JSONModelVision */,
+				C36FB77C1B3BFB3600CFC3F9 /* VisionServiceClient.h */,
+				C36FB77D1B3BFB3600CFC3F9 /* VisionServiceClient.m */,
+				C36FB77E1B3BFB3600CFC3F9 /* VisionServiceClientProtocol.h */,
+				C36FB6E91B3BFA4400CFC3F9 /* ProjectOxfordVision.h */,
+			);
+			path = ProjectOxfordVision;
+			sourceTree = "<group>";
+		};
+		C36FB73F1B3BFB3600CFC3F9 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7401B3BFB3600CFC3F9 /* Adult.h */,
+				C36FB7411B3BFB3600CFC3F9 /* Adult.m */,
+				C36FB7421B3BFB3600CFC3F9 /* AnalysisResult.h */,
+				C36FB7431B3BFB3600CFC3F9 /* AnalysisResult.m */,
+				C36FB7441B3BFB3600CFC3F9 /* Color.h */,
+				C36FB7451B3BFB3600CFC3F9 /* Color.m */,
+				C36FB7461B3BFB3600CFC3F9 /* Face.h */,
+				C36FB7471B3BFB3600CFC3F9 /* Face.m */,
+				C36FB7481B3BFB3600CFC3F9 /* FaceRectangle.h */,
+				C36FB7491B3BFB3600CFC3F9 /* FaceRectangle.m */,
+				C36FB74A1B3BFB3600CFC3F9 /* ImageType.h */,
+				C36FB74B1B3BFB3600CFC3F9 /* ImageType.m */,
+				C36FB74C1B3BFB3600CFC3F9 /* LanguageCodes.h */,
+				C36FB74D1B3BFB3600CFC3F9 /* LanguageCodes.m */,
+				C36FB74E1B3BFB3600CFC3F9 /* Line.h */,
+				C36FB74F1B3BFB3600CFC3F9 /* Line.m */,
+				C36FB7501B3BFB3600CFC3F9 /* Metadata.h */,
+				C36FB7511B3BFB3600CFC3F9 /* MetaData.m */,
+				C36FB7521B3BFB3600CFC3F9 /* OcrResults.h */,
+				C36FB7531B3BFB3600CFC3F9 /* OcrResults.m */,
+				C36FB7541B3BFB3600CFC3F9 /* Rectangle.h */,
+				C36FB7551B3BFB3600CFC3F9 /* Rectangle.m */,
+				C36FB7561B3BFB3600CFC3F9 /* Region.h */,
+				C36FB7571B3BFB3600CFC3F9 /* Region.m */,
+				C36FB7581B3BFB3600CFC3F9 /* VisionCategory.h */,
+				C36FB7591B3BFB3600CFC3F9 /* VisionCategory.m */,
+				C36FB75A1B3BFB3600CFC3F9 /* Word.h */,
+				C36FB75B1B3BFB3600CFC3F9 /* Word.m */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		C36FB75C1B3BFB3600CFC3F9 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB75D1B3BFB3600CFC3F9 /* JSONModel */,
+				C36FB7661B3BFB3600CFC3F9 /* JSONModelCategories */,
+				C36FB7691B3BFB3600CFC3F9 /* JSONModelLib.h */,
+				C36FB76A1B3BFB3600CFC3F9 /* JSONModelNetworking */,
+				C36FB7711B3BFB3600CFC3F9 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		C36FB75D1B3BFB3600CFC3F9 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB75E1B3BFB3600CFC3F9 /* JSONModel.h */,
+				C36FB75F1B3BFB3600CFC3F9 /* JSONModel.m */,
+				C36FB7601B3BFB3600CFC3F9 /* JSONModelArray.h */,
+				C36FB7611B3BFB3600CFC3F9 /* JSONModelArray.m */,
+				C36FB7621B3BFB3600CFC3F9 /* JSONModelClassProperty.h */,
+				C36FB7631B3BFB3600CFC3F9 /* JSONModelClassProperty.m */,
+				C36FB7641B3BFB3600CFC3F9 /* JSONModelError.h */,
+				C36FB7651B3BFB3600CFC3F9 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		C36FB7661B3BFB3600CFC3F9 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7671B3BFB3600CFC3F9 /* NSArray+JSONModel.h */,
+				C36FB7681B3BFB3600CFC3F9 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		C36FB76A1B3BFB3600CFC3F9 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB76B1B3BFB3600CFC3F9 /* JSONAPI.h */,
+				C36FB76C1B3BFB3600CFC3F9 /* JSONAPI.m */,
+				C36FB76D1B3BFB3600CFC3F9 /* JSONHTTPClient.h */,
+				C36FB76E1B3BFB3600CFC3F9 /* JSONHTTPClient.m */,
+				C36FB76F1B3BFB3600CFC3F9 /* JSONModel+networking.h */,
+				C36FB7701B3BFB3600CFC3F9 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		C36FB7711B3BFB3600CFC3F9 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7721B3BFB3600CFC3F9 /* JSONKeyMapper.h */,
+				C36FB7731B3BFB3600CFC3F9 /* JSONKeyMapper.m */,
+				C36FB7741B3BFB3600CFC3F9 /* JSONValueTransformer.h */,
+				C36FB7751B3BFB3600CFC3F9 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		C36FB7761B3BFB3600CFC3F9 /* JSONModelVision */ = {
+			isa = PBXGroup;
+			children = (
+				C36FB7771B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.h */,
+				C36FB7781B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.m */,
+				C36FB7791B3BFB3600CFC3F9 /* OptionalPropJSONModel.h */,
+				C36FB77A1B3BFB3600CFC3F9 /* OptionalPropJSONModel.m */,
+			);
+			path = JSONModelVision;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36FB6E51B3BFA4400CFC3F9 /* ProjectOxfordVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36FB6FA1B3BFA4400CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVision" */;
+			buildPhases = (
+				C36FB6E21B3BFA4400CFC3F9 /* Sources */,
+				C36FB6E31B3BFA4400CFC3F9 /* Frameworks */,
+				C36FB6E41B3BFA4400CFC3F9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectOxfordVision;
+			productName = ProjectOxfordVision;
+			productReference = C36FB6E61B3BFA4400CFC3F9 /* libProjectOxfordVision.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36FB6DE1B3BFA4400CFC3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					C36FB6E51B3BFA4400CFC3F9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = C36FB6E11B3BFA4400CFC3F9 /* Build configuration list for PBXProject "ProjectOxfordVision" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C36FB6DD1B3BFA4400CFC3F9;
+			productRefGroup = C36FB6E71B3BFA4400CFC3F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36FB6E51B3BFA4400CFC3F9 /* ProjectOxfordVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36FB6E21B3BFA4400CFC3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36FB7811B3BFB3600CFC3F9 /* Adult.m in Sources */,
+				C36FB7901B3BFB3600CFC3F9 /* JSONModelArray.m in Sources */,
+				C36FB78D1B3BFB3600CFC3F9 /* VisionCategory.m in Sources */,
+				C36FB78B1B3BFB3600CFC3F9 /* Rectangle.m in Sources */,
+				C36FB79B1B3BFB3600CFC3F9 /* VisionServiceClient.m in Sources */,
+				C36FB7831B3BFB3600CFC3F9 /* Color.m in Sources */,
+				C36FB7961B3BFB3600CFC3F9 /* JSONModel+networking.m in Sources */,
+				C36FB79A1B3BFB3600CFC3F9 /* OptionalPropJSONModel.m in Sources */,
+				C36FB7871B3BFB3600CFC3F9 /* LanguageCodes.m in Sources */,
+				C36FB7991B3BFB3600CFC3F9 /* JSONKeyMapper+CamelCase.m in Sources */,
+				C36FB7861B3BFB3600CFC3F9 /* ImageType.m in Sources */,
+				C36FB7821B3BFB3600CFC3F9 /* AnalysisResult.m in Sources */,
+				C36FB7981B3BFB3600CFC3F9 /* JSONValueTransformer.m in Sources */,
+				C36FB7881B3BFB3600CFC3F9 /* Line.m in Sources */,
+				C36FB7941B3BFB3600CFC3F9 /* JSONAPI.m in Sources */,
+				C36FB7951B3BFB3600CFC3F9 /* JSONHTTPClient.m in Sources */,
+				C36FB78A1B3BFB3600CFC3F9 /* OcrResults.m in Sources */,
+				C36FB7841B3BFB3600CFC3F9 /* Face.m in Sources */,
+				C36FB7851B3BFB3600CFC3F9 /* FaceRectangle.m in Sources */,
+				C36FB78E1B3BFB3600CFC3F9 /* Word.m in Sources */,
+				C36FB7971B3BFB3600CFC3F9 /* JSONKeyMapper.m in Sources */,
+				C36FB7921B3BFB3600CFC3F9 /* JSONModelError.m in Sources */,
+				C36FB78C1B3BFB3600CFC3F9 /* Region.m in Sources */,
+				C36FB78F1B3BFB3600CFC3F9 /* JSONModel.m in Sources */,
+				C36FB7931B3BFB3600CFC3F9 /* NSArray+JSONModel.m in Sources */,
+				C36FB7911B3BFB3600CFC3F9 /* JSONModelClassProperty.m in Sources */,
+				C36FB7891B3BFB3600CFC3F9 /* MetaData.m in Sources */,
+				C36FB77F1B3BFB3600CFC3F9 /* ClientError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C36FB6F81B3BFA4400CFC3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C36FB6F91B3BFA4400CFC3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C36FB6FB1B3BFA4400CFC3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C36FB6FC1B3BFA4400CFC3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36FB6E11B3BFA4400CFC3F9 /* Build configuration list for PBXProject "ProjectOxfordVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36FB6F81B3BFA4400CFC3F9 /* Debug */,
+				C36FB6F91B3BFA4400CFC3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36FB6FA1B3BFA4400CFC3F9 /* Build configuration list for PBXNativeTarget "ProjectOxfordVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36FB6FB1B3BFA4400CFC3F9 /* Debug */,
+				C36FB6FC1B3BFA4400CFC3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36FB6DE1B3BFA4400CFC3F9 /* Project object */;
+}
